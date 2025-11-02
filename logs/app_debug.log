@@ -1,0 +1,1751 @@
+[2025-11-02 02:50:23] === APPLICATION STARTED ===
+[2025-11-02 02:50:23] Environment: development
+[2025-11-02 02:50:23] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:50:23] ===========================
+[2025-11-02 02:50:23] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:23] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:23] [INFO] JWT Secret: SET
+[2025-11-02 02:50:23] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:23] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 02:50:44] === APPLICATION STARTED ===
+[2025-11-02 02:50:44] Environment: development
+[2025-11-02 02:50:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:50:44] ===========================
+[2025-11-02 02:50:45] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:45] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:45] [INFO] JWT Secret: SET
+[2025-11-02 02:50:45] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:45] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 02:50:45] === APPLICATION STARTED ===
+[2025-11-02 02:50:45] Environment: development
+[2025-11-02 02:50:45] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:50:45] ===========================
+[2025-11-02 02:50:45] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:45] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:45] [INFO] JWT Secret: SET
+[2025-11-02 02:50:45] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:45] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 02:50:45] [DEBUG] Request Method: GET
+[2025-11-02 02:50:45] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 02:50:45] [DEBUG] Query String: 
+[2025-11-02 02:50:45] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 02:50:45] [DEBUG] Database connection established successfully
+[2025-11-02 02:50:45] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 02:50:45] [DEBUG] getCategories method called
+[2025-11-02 02:50:45] [DEBUG] Search parameter: empty
+[2025-11-02 02:50:45] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 02:50:45] [DEBUG] Query parameters: []
+[2025-11-02 02:50:45] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 02:50:45] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 02:50:46] === APPLICATION STARTED ===
+[2025-11-02 02:50:46] Environment: development
+[2025-11-02 02:50:46] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:50:46] ===========================
+[2025-11-02 02:50:46] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:46] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:46] [INFO] JWT Secret: SET
+[2025-11-02 02:50:46] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:46] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 02:50:46] === APPLICATION STARTED ===
+[2025-11-02 02:50:46] Environment: development
+[2025-11-02 02:50:46] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:50:46] ===========================
+[2025-11-02 02:50:46] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:46] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:46] [INFO] JWT Secret: SET
+[2025-11-02 02:50:46] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:46] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 02:50:46] [DEBUG] Request Method: GET
+[2025-11-02 02:50:46] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 02:50:46] [DEBUG] Query String: 
+[2025-11-02 02:50:46] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 02:50:46] [DEBUG] Database connection established successfully
+[2025-11-02 02:50:46] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 02:50:46] [DEBUG] getCategories method called
+[2025-11-02 02:50:46] [DEBUG] Search parameter: empty
+[2025-11-02 02:50:46] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 02:50:46] [DEBUG] Query parameters: []
+[2025-11-02 02:50:46] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 02:50:46] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 02:51:09] === APPLICATION STARTED ===
+[2025-11-02 02:51:09] Environment: development
+[2025-11-02 02:51:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:51:09] ===========================
+[2025-11-02 02:51:09] [INFO] Application initialized - Environment: development
+[2025-11-02 02:51:09] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:51:09] [INFO] JWT Secret: SET
+[2025-11-02 02:51:09] [DEBUG] Debug logging enabled
+[2025-11-02 02:51:09] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 02:51:09] === APPLICATION STARTED ===
+[2025-11-02 02:51:09] Environment: development
+[2025-11-02 02:51:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 02:51:09] ===========================
+[2025-11-02 02:51:09] [INFO] Application initialized - Environment: development
+[2025-11-02 02:51:09] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:51:09] [INFO] JWT Secret: SET
+[2025-11-02 02:51:09] [DEBUG] Debug logging enabled
+[2025-11-02 02:51:09] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 02:51:09] [DEBUG] Request Method: PUT
+[2025-11-02 02:51:09] [DEBUG] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 02:51:09] [DEBUG] Query String: id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 02:51:09] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 02:51:09] [DEBUG] Database connection established successfully
+[2025-11-02 02:51:09] [DEBUG] Routing main request - Method: PUT, ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 02:51:09] [DEBUG] updateCategory method called for ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 02:51:09] [DEBUG] Attempting to authenticate user for updateCategory
+[02-Nov-2025 02:51:09 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 02:51:09 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 02:51:09 UTC] App Environment: development
+[02-Nov-2025 02:51:09 UTC] === END INITIALIZATION ===
+[02-Nov-2025 02:51:09 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"160","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzYyMDUxODM3LCJleHAiOjE3NjIxMzgyMzd9.S-f-5kNCnGlEdLQ7MatjukdOs2-vaVTVV2ZjinE-hVc","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 02:51:09 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 02:51:09 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 02:51:09 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 02:51:09 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 02:51:09 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 02:51:09 UTC] Request method: PUT
+[02-Nov-2025 02:51:09 UTC] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[02-Nov-2025 02:51:09 UTC] Token length: 201 characters
+[02-Nov-2025 02:51:09 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 02:51:09 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 02:51:09 UTC] Signature part: S-f-5kNCnGlEdLQ7MatjukdOs2-vaV...
+[02-Nov-2025 02:51:09 UTC] ❌ JWT token signature verification FAILED
+[02-Nov-2025 02:51:09 UTC] Data to sign: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzYyMDUxODM3LCJleHAiOjE3NjIxMzgyMzd9
+[02-Nov-2025 02:51:09 UTC] Expected signature: azpP81Nq-2pQRNKh9Y9J9pdDK4Evaozc_i1r8V0u6qo
+[02-Nov-2025 02:51:09 UTC] Received signature: S-f-5kNCnGlEdLQ7MatjukdOs2-vaVTVV2ZjinE-hVc
+[02-Nov-2025 02:51:09 UTC] Secret key length: 27
+[02-Nov-2025 02:51:09 UTC] Secret key (first 10 chars): @rh$%kkjf&...
+[02-Nov-2025 02:51:09 UTC] Signatures match: NO
+[02-Nov-2025 02:51:09 UTC] ❌ Token verification FAILED
+[02-Nov-2025 02:51:09 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:02:43] === APPLICATION STARTED ===
+[2025-11-02 03:02:43] Environment: development
+[2025-11-02 03:02:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:43] ===========================
+[2025-11-02 03:02:43] === APPLICATION STARTED ===
+[2025-11-02 03:02:43] Environment: development
+[2025-11-02 03:02:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:43] ===========================
+[2025-11-02 03:02:43] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:43] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:43] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:43] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:43] [INFO] JWT Secret: SET
+[2025-11-02 03:02:43] [INFO] JWT Secret: SET
+[2025-11-02 03:02:43] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:43] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:43] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:02:43] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:02:43] === APPLICATION STARTED ===
+[2025-11-02 03:02:43] Environment: development
+[2025-11-02 03:02:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:43] ===========================
+[2025-11-02 03:02:43] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:43] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:43] [INFO] JWT Secret: SET
+[2025-11-02 03:02:43] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:43] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:02:43] [DEBUG] Request Method: GET
+[2025-11-02 03:02:43] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:02:43] [DEBUG] Query String: 
+[2025-11-02 03:02:43] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:02:43] [DEBUG] Database connection established successfully
+[2025-11-02 03:02:43] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:02:43] [DEBUG] getCategories method called
+[2025-11-02 03:02:43] [DEBUG] Search parameter: empty
+[2025-11-02 03:02:43] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:02:43] [DEBUG] Query parameters: []
+[2025-11-02 03:02:44] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:02:44] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:02:44] === APPLICATION STARTED ===
+[2025-11-02 03:02:44] Environment: development
+[2025-11-02 03:02:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:44] ===========================
+[2025-11-02 03:02:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:44] [INFO] JWT Secret: SET
+[2025-11-02 03:02:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:44] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:02:44] [DEBUG] Request Method: GET
+[2025-11-02 03:02:44] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:02:44] [DEBUG] Query String: 
+[2025-11-02 03:02:44] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:02:44] [DEBUG] Database connection established successfully
+[2025-11-02 03:02:44] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:02:44] [DEBUG] getCategories method called
+[2025-11-02 03:02:44] [DEBUG] Search parameter: empty
+[2025-11-02 03:02:44] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:02:44] [DEBUG] Query parameters: []
+[2025-11-02 03:02:44] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:02:44] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:02:56] === APPLICATION STARTED ===
+[2025-11-02 03:02:56] Environment: development
+[2025-11-02 03:02:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:56] ===========================
+[2025-11-02 03:02:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:56] [INFO] JWT Secret: SET
+[2025-11-02 03:02:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:56] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:02:56] === APPLICATION STARTED ===
+[2025-11-02 03:02:56] Environment: development
+[2025-11-02 03:02:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:56] ===========================
+[2025-11-02 03:02:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:56] [INFO] JWT Secret: SET
+[2025-11-02 03:02:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:56] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:02:56] === APPLICATION STARTED ===
+[2025-11-02 03:02:56] Environment: development
+[2025-11-02 03:02:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:02:56] ===========================
+[2025-11-02 03:02:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:02:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:02:56] [INFO] JWT Secret: SET
+[2025-11-02 03:02:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:02:56] [DEBUG] === AUTH API REQUEST STARTED ===
+[2025-11-02 03:02:56] [DEBUG] Request Method: POST
+[2025-11-02 03:02:56] [DEBUG] Request URI: /DaddyChipsAPI/login.php
+[2025-11-02 03:02:56] [DEBUG] AuthAPI constructor called
+[2025-11-02 03:02:56] [DEBUG] Database connection established successfully
+[2025-11-02 03:02:56] [DEBUG] TokenGenerator initialized with secret key: SET
+[2025-11-02 03:02:56] [DEBUG] Request path: /DaddyChipsAPI/login.php
+[2025-11-02 03:02:56] [DEBUG] Routing to login endpoint
+[2025-11-02 03:02:56] [DEBUG] Login method called
+[2025-11-02 03:02:56] [DEBUG] Login attempt with email: admin@example.com
+[2025-11-02 03:02:56] [DEBUG] Querying user by email: admin@example.com
+[2025-11-02 03:02:56] [DEBUG] User query result: FOUND (ID: 1)
+[2025-11-02 03:02:56] [DEBUG] User found: admin@example.com (ID: 1, Role: Admin)
+[2025-11-02 03:02:56] [DEBUG] Password verified, generating token for: admin@example.com
+[2025-11-02 03:02:56] [DEBUG] Generating token for user: admin@example.com
+[2025-11-02 03:02:56] [DEBUG] Token payload generated for user ID: 1
+[2025-11-02 03:02:56] [DEBUG] Token generated successfully - Length: 241 chars
+[2025-11-02 03:02:56] [DEBUG] Token preview: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[2025-11-02 03:02:56] [DEBUG] Handling successful login for user: admin@example.com
+[2025-11-02 03:02:57] [DEBUG] Successful login recorded for user: admin@example.com
+[02-Nov-2025 03:02:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AppConfig::info() in D:\Xampp\htdocs\DaddyChipsAPI\login.php:138
+Stack trace:
+#0 D:\Xampp\htdocs\DaddyChipsAPI\login.php(420): AuthAPI->login()
+#1 {main}
+  thrown in D:\Xampp\htdocs\DaddyChipsAPI\login.php on line 138
+[2025-11-02 03:09:32] === APPLICATION STARTED ===
+[2025-11-02 03:09:32] Environment: development
+[2025-11-02 03:09:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:32] ===========================
+[2025-11-02 03:09:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:32] [INFO] JWT Secret: SET
+[2025-11-02 03:09:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:32] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:09:32] === APPLICATION STARTED ===
+[2025-11-02 03:09:32] Environment: development
+[2025-11-02 03:09:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:32] ===========================
+[2025-11-02 03:09:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:32] [INFO] JWT Secret: SET
+[2025-11-02 03:09:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:32] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:09:32] === APPLICATION STARTED ===
+[2025-11-02 03:09:32] Environment: development
+[2025-11-02 03:09:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:32] ===========================
+[2025-11-02 03:09:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:32] [INFO] JWT Secret: SET
+[2025-11-02 03:09:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:33] [DEBUG] === AUTH API REQUEST STARTED ===
+[2025-11-02 03:09:33] [DEBUG] Request Method: POST
+[2025-11-02 03:09:33] [DEBUG] Request URI: /DaddyChipsAPI/login.php
+[2025-11-02 03:09:33] [DEBUG] AuthAPI constructor called
+[2025-11-02 03:09:33] [DEBUG] Database connection established successfully
+[2025-11-02 03:09:33] [DEBUG] TokenGenerator initialized with secret key: SET
+[2025-11-02 03:09:33] [DEBUG] Request path: /DaddyChipsAPI/login.php
+[2025-11-02 03:09:33] [DEBUG] Routing to login endpoint
+[2025-11-02 03:09:33] [DEBUG] Login method called
+[2025-11-02 03:09:33] [DEBUG] Login attempt with email: admin@example.com
+[2025-11-02 03:09:33] [DEBUG] Querying user by email: admin@example.com
+[2025-11-02 03:09:33] [DEBUG] User query result: FOUND (ID: 1)
+[2025-11-02 03:09:33] [DEBUG] User found: admin@example.com (ID: 1, Role: Admin)
+[2025-11-02 03:09:33] [DEBUG] Password verified, generating token for: admin@example.com
+[2025-11-02 03:09:33] [DEBUG] Generating token for user: admin@example.com
+[2025-11-02 03:09:33] [DEBUG] Token payload generated for user ID: 1
+[2025-11-02 03:09:33] [DEBUG] Token generated successfully - Length: 241 chars
+[2025-11-02 03:09:33] [DEBUG] Token preview: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[2025-11-02 03:09:33] [DEBUG] Handling successful login for user: admin@example.com
+[2025-11-02 03:09:33] [DEBUG] Successful login recorded for user: admin@example.com
+[2025-11-02 03:09:33] [INFO] Login successful: admin@example.com (ID: 1)
+[2025-11-02 03:09:33] [DEBUG] Generated token length: 241 chars
+[2025-11-02 03:09:33] [DEBUG] Generated token info: {"valid":true,"header":{"typ":"JWT","alg":"HS256"},"payload":{"user_id":1,"email":"admin@example.com","role":"Admin","name":"System Administrator","iat":1762052973,"exp":1762139373},"signature":"-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","expired":false,"current_time":1762052973,"expiry_time":1762139373,"time_until_expiry":86400}
+[2025-11-02 03:09:33] [DEBUG] === AUTH API REQUEST COMPLETED ===
+[2025-11-02 03:09:38] === APPLICATION STARTED ===
+[2025-11-02 03:09:38] Environment: development
+[2025-11-02 03:09:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:38] ===========================
+[2025-11-02 03:09:38] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:38] [INFO] JWT Secret: SET
+[2025-11-02 03:09:38] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:38] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:09:38] === APPLICATION STARTED ===
+[2025-11-02 03:09:38] Environment: development
+[2025-11-02 03:09:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:38] ===========================
+[2025-11-02 03:09:38] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:38] [INFO] JWT Secret: SET
+[2025-11-02 03:09:38] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:38] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:09:38] === APPLICATION STARTED ===
+[2025-11-02 03:09:38] Environment: development
+[2025-11-02 03:09:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:38] ===========================
+[2025-11-02 03:09:38] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:38] [INFO] JWT Secret: SET
+[2025-11-02 03:09:38] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:38] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:09:38] [DEBUG] Request Method: GET
+[2025-11-02 03:09:38] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:09:38] [DEBUG] Query String: 
+[2025-11-02 03:09:38] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:09:38] [DEBUG] Database connection established successfully
+[2025-11-02 03:09:38] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:09:38] [DEBUG] getCategories method called
+[2025-11-02 03:09:38] [DEBUG] Search parameter: empty
+[2025-11-02 03:09:38] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:09:38] [DEBUG] Query parameters: []
+[2025-11-02 03:09:38] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:09:38] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:09:38] === APPLICATION STARTED ===
+[2025-11-02 03:09:38] Environment: development
+[2025-11-02 03:09:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:38] ===========================
+[2025-11-02 03:09:38] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:38] [INFO] JWT Secret: SET
+[2025-11-02 03:09:38] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:38] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:09:38] [DEBUG] Request Method: GET
+[2025-11-02 03:09:38] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:09:38] [DEBUG] Query String: 
+[2025-11-02 03:09:38] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:09:38] [DEBUG] Database connection established successfully
+[2025-11-02 03:09:38] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:09:38] [DEBUG] getCategories method called
+[2025-11-02 03:09:38] [DEBUG] Search parameter: empty
+[2025-11-02 03:09:38] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:09:38] [DEBUG] Query parameters: []
+[2025-11-02 03:09:38] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:09:38] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:09:44] === APPLICATION STARTED ===
+[2025-11-02 03:09:44] Environment: development
+[2025-11-02 03:09:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:44] ===========================
+[2025-11-02 03:09:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:44] [INFO] JWT Secret: SET
+[2025-11-02 03:09:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:44] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:09:44] === APPLICATION STARTED ===
+[2025-11-02 03:09:44] Environment: development
+[2025-11-02 03:09:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:09:44] ===========================
+[2025-11-02 03:09:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:09:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:09:44] [INFO] JWT Secret: SET
+[2025-11-02 03:09:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:09:44] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:09:44] [DEBUG] Request Method: PUT
+[2025-11-02 03:09:44] [DEBUG] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:09:44] [DEBUG] Query String: id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:09:44] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:09:44] [DEBUG] Database connection established successfully
+[2025-11-02 03:09:44] [DEBUG] Routing main request - Method: PUT, ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:09:44] [DEBUG] updateCategory method called for ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:09:44] [DEBUG] Attempting to authenticate user for updateCategory
+[02-Nov-2025 03:09:44 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:09:44 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:09:44 UTC] App Environment: development
+[02-Nov-2025 03:09:44 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:09:44 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"159","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:09:44 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:09:44 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:09:44 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:09:44 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:09:44 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:09:44 UTC] Request method: PUT
+[02-Nov-2025 03:09:44 UTC] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[02-Nov-2025 03:09:44 UTC] Token length: 241 characters
+[02-Nov-2025 03:09:44 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:09:44 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:09:44 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:09:44 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:09:44 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:09:44 UTC] User ID: 1
+[02-Nov-2025 03:09:44 UTC] Email: admin@example.com
+[02-Nov-2025 03:09:44 UTC] Role: Admin
+[02-Nov-2025 03:09:44 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:09:44 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:09:44 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:09:44 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:09:44] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:09:44] [DEBUG] Received update data for category fgfhrthjryjtry-u6ryu-5ryu4: {"category_name":"snacks","img_url":"http:\/\/localhost\/DaddyChipsAPI\/uploads\/690232a29ed1e_1761751714.png","is_active":true,"created_by":"System Administrator"}
+[2025-11-02 03:09:44] [DEBUG] Checking if category exists: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:09:44] [DEBUG] Category exists check for fgfhrthjryjtry-u6ryu-5ryu4: YES
+[2025-11-02 03:09:44] [DEBUG] Executing update query for category: fgfhrthjryjtry-u6ryu-5ryu4
+[02-Nov-2025 03:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AppConfig::info() in D:\Xampp\htdocs\DaddyChipsAPI\categories.php:319
+Stack trace:
+#0 D:\Xampp\htdocs\DaddyChipsAPI\categories.php(531): CategoriesAPI->updateCategory('fgfhrthjryjtry-...')
+#1 {main}
+  thrown in D:\Xampp\htdocs\DaddyChipsAPI\categories.php on line 319
+[2025-11-02 03:10:23] === APPLICATION STARTED ===
+[2025-11-02 03:10:23] Environment: development
+[2025-11-02 03:10:23] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:23] ===========================
+[2025-11-02 03:10:23] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:23] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:23] [INFO] JWT Secret: SET
+[2025-11-02 03:10:23] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:23] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:10:23] === APPLICATION STARTED ===
+[2025-11-02 03:10:23] Environment: development
+[2025-11-02 03:10:23] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:23] ===========================
+[2025-11-02 03:10:23] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:23] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:23] [INFO] JWT Secret: SET
+[2025-11-02 03:10:23] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:23] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:10:23] [DEBUG] Request Method: GET
+[2025-11-02 03:10:23] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:10:23] [DEBUG] Query String: 
+[2025-11-02 03:10:23] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:10:23] [DEBUG] Database connection established successfully
+[2025-11-02 03:10:23] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:10:23] [DEBUG] getCategories method called
+[2025-11-02 03:10:23] [DEBUG] Search parameter: empty
+[2025-11-02 03:10:23] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:10:23] [DEBUG] Query parameters: []
+[2025-11-02 03:10:23] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:10:23] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:10:23] === APPLICATION STARTED ===
+[2025-11-02 03:10:23] Environment: development
+[2025-11-02 03:10:23] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:23] ===========================
+[2025-11-02 03:10:23] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:23] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:23] [INFO] JWT Secret: SET
+[2025-11-02 03:10:23] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:23] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:10:23] [DEBUG] Request Method: GET
+[2025-11-02 03:10:23] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:10:23] [DEBUG] Query String: 
+[2025-11-02 03:10:23] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:10:23] [DEBUG] Database connection established successfully
+[2025-11-02 03:10:23] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:10:23] [DEBUG] getCategories method called
+[2025-11-02 03:10:23] [DEBUG] Search parameter: empty
+[2025-11-02 03:10:23] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:10:23] [DEBUG] Query parameters: []
+[2025-11-02 03:10:23] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:10:23] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:10:31] === APPLICATION STARTED ===
+[2025-11-02 03:10:31] Environment: development
+[2025-11-02 03:10:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:31] ===========================
+[2025-11-02 03:10:31] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:31] [INFO] JWT Secret: SET
+[2025-11-02 03:10:31] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:31] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:10:31] === APPLICATION STARTED ===
+[2025-11-02 03:10:31] Environment: development
+[2025-11-02 03:10:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:31] ===========================
+[2025-11-02 03:10:31] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:31] [INFO] JWT Secret: SET
+[2025-11-02 03:10:31] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:31] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:10:31] [DEBUG] Request Method: PUT
+[2025-11-02 03:10:31] [DEBUG] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [DEBUG] Query String: id=fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:10:31] [DEBUG] Database connection established successfully
+[2025-11-02 03:10:31] [DEBUG] Routing main request - Method: PUT, ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [DEBUG] updateCategory method called for ID: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [DEBUG] Attempting to authenticate user for updateCategory
+[02-Nov-2025 03:10:31 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:10:31 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:10:31 UTC] App Environment: development
+[02-Nov-2025 03:10:31 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:10:31 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"160","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:10:31 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:10:31 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:10:31 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:10:31 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:10:31 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:10:31 UTC] Request method: PUT
+[02-Nov-2025 03:10:31 UTC] Request URI: /DaddyChipsAPI/categories.php?id=fgfhrthjryjtry-u6ryu-5ryu4
+[02-Nov-2025 03:10:31 UTC] Token length: 241 characters
+[02-Nov-2025 03:10:31 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:10:31 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:10:31 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:10:31 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:10:31 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:10:31 UTC] User ID: 1
+[02-Nov-2025 03:10:31 UTC] Email: admin@example.com
+[02-Nov-2025 03:10:31 UTC] Role: Admin
+[02-Nov-2025 03:10:31 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:10:31 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:10:31 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:10:31 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:10:31] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:10:31] [DEBUG] Received update data for category fgfhrthjryjtry-u6ryu-5ryu4: {"category_name":"snacks1","img_url":"http:\/\/localhost\/DaddyChipsAPI\/uploads\/690232a29ed1e_1761751714.png","is_active":true,"created_by":"System Administrator"}
+[2025-11-02 03:10:31] [DEBUG] Checking if category exists: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [DEBUG] Category exists check for fgfhrthjryjtry-u6ryu-5ryu4: YES
+[2025-11-02 03:10:31] [DEBUG] Executing update query for category: fgfhrthjryjtry-u6ryu-5ryu4
+[2025-11-02 03:10:31] [INFO] Category updated successfully: fgfhrthjryjtry-u6ryu-5ryu4 by admin@example.com
+[2025-11-02 03:10:31] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:10:31] === APPLICATION STARTED ===
+[2025-11-02 03:10:31] Environment: development
+[2025-11-02 03:10:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:31] ===========================
+[2025-11-02 03:10:31] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:31] [INFO] JWT Secret: SET
+[2025-11-02 03:10:31] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:31] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:10:31] === APPLICATION STARTED ===
+[2025-11-02 03:10:31] Environment: development
+[2025-11-02 03:10:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:10:31] ===========================
+[2025-11-02 03:10:31] [INFO] Application initialized - Environment: development
+[2025-11-02 03:10:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:10:31] [INFO] JWT Secret: SET
+[2025-11-02 03:10:31] [DEBUG] Debug logging enabled
+[2025-11-02 03:10:31] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:10:31] [DEBUG] Request Method: GET
+[2025-11-02 03:10:31] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:10:31] [DEBUG] Query String: 
+[2025-11-02 03:10:31] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:10:31] [DEBUG] Database connection established successfully
+[2025-11-02 03:10:31] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:10:31] [DEBUG] getCategories method called
+[2025-11-02 03:10:31] [DEBUG] Search parameter: empty
+[2025-11-02 03:10:31] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:10:31] [DEBUG] Query parameters: []
+[2025-11-02 03:10:31] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:10:31] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:33:54] === APPLICATION STARTED ===
+[2025-11-02 03:33:54] Environment: development
+[2025-11-02 03:33:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:33:54] ===========================
+[2025-11-02 03:33:54] === APPLICATION STARTED ===
+[2025-11-02 03:33:54] Environment: development
+[2025-11-02 03:33:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:33:54] ===========================
+[2025-11-02 03:33:54] [INFO] Application initialized - Environment: development
+[2025-11-02 03:33:54] [INFO] Application initialized - Environment: development
+[2025-11-02 03:33:54] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:33:54] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:33:54] [INFO] JWT Secret: SET
+[2025-11-02 03:33:54] [INFO] JWT Secret: SET
+[2025-11-02 03:33:54] [DEBUG] Debug logging enabled
+[2025-11-02 03:33:54] [DEBUG] Debug logging enabled
+[2025-11-02 03:33:54] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:33:54] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:33:54] === APPLICATION STARTED ===
+[2025-11-02 03:33:54] Environment: development
+[2025-11-02 03:33:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:33:54] ===========================
+[2025-11-02 03:33:54] [INFO] Application initialized - Environment: development
+[2025-11-02 03:33:54] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:33:54] [INFO] JWT Secret: SET
+[2025-11-02 03:33:54] [DEBUG] Debug logging enabled
+[2025-11-02 03:33:54] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:33:54] [DEBUG] Request Method: GET
+[2025-11-02 03:33:54] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:33:54] [DEBUG] Query String: 
+[2025-11-02 03:33:54] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:33:54] [DEBUG] Database connection established successfully
+[2025-11-02 03:33:54] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:33:54] [DEBUG] getCategories method called
+[2025-11-02 03:33:54] [DEBUG] Search parameter: empty
+[2025-11-02 03:33:54] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:33:54] [DEBUG] Query parameters: []
+[2025-11-02 03:33:55] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:33:55] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:33:55] === APPLICATION STARTED ===
+[2025-11-02 03:33:55] Environment: development
+[2025-11-02 03:33:55] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:33:55] ===========================
+[2025-11-02 03:33:55] [INFO] Application initialized - Environment: development
+[2025-11-02 03:33:55] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:33:55] [INFO] JWT Secret: SET
+[2025-11-02 03:33:55] [DEBUG] Debug logging enabled
+[2025-11-02 03:33:55] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:33:55] [DEBUG] Request Method: GET
+[2025-11-02 03:33:55] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:33:55] [DEBUG] Query String: 
+[2025-11-02 03:33:55] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:33:55] [DEBUG] Database connection established successfully
+[2025-11-02 03:33:55] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:33:55] [DEBUG] getCategories method called
+[2025-11-02 03:33:55] [DEBUG] Search parameter: empty
+[2025-11-02 03:33:55] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:33:55] [DEBUG] Query parameters: []
+[2025-11-02 03:33:55] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:33:55] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:34:16] === APPLICATION STARTED ===
+[2025-11-02 03:34:16] Environment: development
+[2025-11-02 03:34:16] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:16] ===========================
+[2025-11-02 03:34:16] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:16] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:16] [INFO] JWT Secret: SET
+[2025-11-02 03:34:16] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:16] [DEBUG] OPTIONS preflight request handled for upload - origin: http://localhost:3000
+[2025-11-02 03:34:16] === APPLICATION STARTED ===
+[2025-11-02 03:34:16] Environment: development
+[2025-11-02 03:34:16] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:16] ===========================
+[2025-11-02 03:34:16] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:16] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:16] [INFO] JWT Secret: SET
+[2025-11-02 03:34:16] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:16] [DEBUG] === UPLOAD API REQUEST STARTED ===
+[2025-11-02 03:34:16] [DEBUG] Request Method: POST
+[2025-11-02 03:34:16] [DEBUG] Request URI: /DaddyChipsAPI/upload.php
+[2025-11-02 03:34:16] [DEBUG] UploadAPI constructor called
+[2025-11-02 03:34:16] [DEBUG] Upload directory exists: uploads/
+[2025-11-02 03:34:16] [DEBUG] uploadImage method called
+[2025-11-02 03:34:16] [DEBUG] Attempting to authenticate user for upload
+[02-Nov-2025 03:34:16 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:34:16 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:34:16 UTC] App Environment: development
+[02-Nov-2025 03:34:16 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:34:16 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"3746838","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryhjyJPoBNc0aTWNPO","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:34:16 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:34:16 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:34:16 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:34:16 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:34:16 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:34:16 UTC] Request method: POST
+[02-Nov-2025 03:34:16 UTC] Request URI: /DaddyChipsAPI/upload.php
+[02-Nov-2025 03:34:16 UTC] Token length: 241 characters
+[02-Nov-2025 03:34:16 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:34:16 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:34:16 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:34:16 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:34:16 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:34:16 UTC] User ID: 1
+[02-Nov-2025 03:34:16 UTC] Email: admin@example.com
+[02-Nov-2025 03:34:16 UTC] Role: Admin
+[02-Nov-2025 03:34:16 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:34:16 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:34:16 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:34:16 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:34:16] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:34:16] [DEBUG] File upload attempt - Name: Copilot_20250817_130027.png, Size: 3746637 bytes, Type: image/png
+[2025-11-02 03:34:17] [DEBUG] Image validation passed - Dimensions: 1536x1024, Type: image/png
+[2025-11-02 03:34:17] [DEBUG] Moving uploaded file to: uploads/6906d13900ce0_1762054457.png
+[2025-11-02 03:34:17] [INFO] Image uploaded successfully: Copilot_20250817_130027.png -> 6906d13900ce0_1762054457.png by admin@example.com (ID: 1)
+[2025-11-02 03:34:17] [DEBUG] === UPLOAD API REQUEST COMPLETED ===
+[2025-11-02 03:34:17] === APPLICATION STARTED ===
+[2025-11-02 03:34:17] Environment: development
+[2025-11-02 03:34:17] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:17] ===========================
+[2025-11-02 03:34:17] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:17] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:17] [INFO] JWT Secret: SET
+[2025-11-02 03:34:17] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:17] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:34:17] === APPLICATION STARTED ===
+[2025-11-02 03:34:17] Environment: development
+[2025-11-02 03:34:17] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:17] ===========================
+[2025-11-02 03:34:17] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:17] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:17] [INFO] JWT Secret: SET
+[2025-11-02 03:34:17] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:17] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:34:17] [DEBUG] Request Method: POST
+[2025-11-02 03:34:17] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:34:17] [DEBUG] Query String: 
+[2025-11-02 03:34:17] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:34:17] [DEBUG] Database connection established successfully
+[2025-11-02 03:34:17] [DEBUG] Routing main request - Method: POST, ID: none
+[2025-11-02 03:34:17] [DEBUG] createCategory method called
+[2025-11-02 03:34:17] [DEBUG] Attempting to authenticate user for createCategory
+[02-Nov-2025 03:34:17 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:34:17 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:34:17 UTC] App Environment: development
+[02-Nov-2025 03:34:17 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:34:17 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"165","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:34:17 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:34:17 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:34:17 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:34:17 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:34:17 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:34:17 UTC] Request method: POST
+[02-Nov-2025 03:34:17 UTC] Request URI: /DaddyChipsAPI/categories.php
+[02-Nov-2025 03:34:17 UTC] Token length: 241 characters
+[02-Nov-2025 03:34:17 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:34:17 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:34:17 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:34:17 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:34:17 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:34:17 UTC] User ID: 1
+[02-Nov-2025 03:34:17 UTC] Email: admin@example.com
+[02-Nov-2025 03:34:17 UTC] Role: Admin
+[02-Nov-2025 03:34:17 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:34:17 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:34:17 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:34:17 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:34:17] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:34:17] [DEBUG] Received category data: {"category_name":"new category","img_url":"http:\/\/localhost\/DaddyChipsAPI\/uploads\/6906d13900ce0_1762054457.png","is_active":true,"created_by":"System Administrator"}
+[2025-11-02 03:34:17] [DEBUG] Generated category ID: new-category from name: new category
+[2025-11-02 03:34:17] [DEBUG] Checking if category exists: new-category
+[2025-11-02 03:34:17] [DEBUG] Category exists check for new-category: NO
+[2025-11-02 03:34:17] [DEBUG] Executing insert query for category: new category
+[2025-11-02 03:34:17] [INFO] Category created successfully: new category (ID: new-category) by admin@example.com
+[2025-11-02 03:34:17] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:34:17] === APPLICATION STARTED ===
+[2025-11-02 03:34:17] Environment: development
+[2025-11-02 03:34:17] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:17] ===========================
+[2025-11-02 03:34:17] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:17] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:17] [INFO] JWT Secret: SET
+[2025-11-02 03:34:17] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:17] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:34:17] [DEBUG] Request Method: GET
+[2025-11-02 03:34:17] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:34:17] [DEBUG] Query String: 
+[2025-11-02 03:34:17] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:34:17] [DEBUG] Database connection established successfully
+[2025-11-02 03:34:17] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:34:17] [DEBUG] getCategories method called
+[2025-11-02 03:34:17] [DEBUG] Search parameter: empty
+[2025-11-02 03:34:17] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:34:17] [DEBUG] Query parameters: []
+[2025-11-02 03:34:17] [DEBUG] Fetched 3 categories successfully
+[2025-11-02 03:34:17] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:34:42] === APPLICATION STARTED ===
+[2025-11-02 03:34:42] Environment: development
+[2025-11-02 03:34:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:42] ===========================
+[2025-11-02 03:34:42] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:42] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:42] [INFO] JWT Secret: SET
+[2025-11-02 03:34:42] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:42] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:34:42] === APPLICATION STARTED ===
+[2025-11-02 03:34:42] Environment: development
+[2025-11-02 03:34:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:42] ===========================
+[2025-11-02 03:34:42] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:42] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:42] [INFO] JWT Secret: SET
+[2025-11-02 03:34:42] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:42] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:34:42] [DEBUG] Request Method: DELETE
+[2025-11-02 03:34:42] [DEBUG] Request URI: /DaddyChipsAPI/categories.php?id=new-category
+[2025-11-02 03:34:42] [DEBUG] Query String: id=new-category
+[2025-11-02 03:34:42] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:34:42] [DEBUG] Database connection established successfully
+[2025-11-02 03:34:42] [DEBUG] Routing main request - Method: DELETE, ID: new-category
+[2025-11-02 03:34:42] [DEBUG] deleteCategory method called for ID: new-category
+[2025-11-02 03:34:42] [DEBUG] Attempting to authenticate user for deleteCategory
+[02-Nov-2025 03:34:42 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:34:42 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:34:42 UTC] App Environment: development
+[02-Nov-2025 03:34:42 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:34:42 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:34:42 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:34:42 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:34:42 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:34:42 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:34:42 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:34:42 UTC] Request method: DELETE
+[02-Nov-2025 03:34:42 UTC] Request URI: /DaddyChipsAPI/categories.php?id=new-category
+[02-Nov-2025 03:34:42 UTC] Token length: 241 characters
+[02-Nov-2025 03:34:42 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:34:42 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:34:42 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:34:42 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:34:42 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:34:42 UTC] User ID: 1
+[02-Nov-2025 03:34:42 UTC] Email: admin@example.com
+[02-Nov-2025 03:34:42 UTC] Role: Admin
+[02-Nov-2025 03:34:42 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:34:42 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:34:42 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:34:42 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:34:42] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:34:42] [DEBUG] Checking if category exists: new-category
+[2025-11-02 03:34:42] [DEBUG] Category exists check for new-category: YES
+[2025-11-02 03:34:42] [DEBUG] Checking for associated products for category: new-category
+[2025-11-02 03:34:43] [DEBUG] Category new-category has associated products: NO
+[2025-11-02 03:34:43] [DEBUG] Retrieved category name for new-category: new category
+[2025-11-02 03:34:43] [DEBUG] Executing delete query for category: new-category (new category)
+[2025-11-02 03:34:43] [INFO] Category deleted successfully: new category (new-category) by admin@example.com
+[2025-11-02 03:34:43] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:34:43] === APPLICATION STARTED ===
+[2025-11-02 03:34:43] Environment: development
+[2025-11-02 03:34:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:43] ===========================
+[2025-11-02 03:34:43] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:43] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:43] [INFO] JWT Secret: SET
+[2025-11-02 03:34:43] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:43] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:34:43] === APPLICATION STARTED ===
+[2025-11-02 03:34:43] Environment: development
+[2025-11-02 03:34:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:34:43] ===========================
+[2025-11-02 03:34:43] [INFO] Application initialized - Environment: development
+[2025-11-02 03:34:43] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:34:43] [INFO] JWT Secret: SET
+[2025-11-02 03:34:43] [DEBUG] Debug logging enabled
+[2025-11-02 03:34:43] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:34:43] [DEBUG] Request Method: GET
+[2025-11-02 03:34:43] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:34:43] [DEBUG] Query String: 
+[2025-11-02 03:34:43] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:34:43] [DEBUG] Database connection established successfully
+[2025-11-02 03:34:43] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:34:43] [DEBUG] getCategories method called
+[2025-11-02 03:34:43] [DEBUG] Search parameter: empty
+[2025-11-02 03:34:43] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:34:43] [DEBUG] Query parameters: []
+[2025-11-02 03:34:43] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:34:43] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:35:12] === APPLICATION STARTED ===
+[2025-11-02 03:35:12] Environment: development
+[2025-11-02 03:35:12] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:35:12] ===========================
+[2025-11-02 03:35:12] [INFO] Application initialized - Environment: development
+[2025-11-02 03:35:12] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:35:12] [INFO] JWT Secret: SET
+[2025-11-02 03:35:12] [DEBUG] Debug logging enabled
+[2025-11-02 03:35:12] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:35:12] [DEBUG] Request Method: GET
+[2025-11-02 03:35:12] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:35:12] [DEBUG] Query String: 
+[2025-11-02 03:35:12] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:35:12] [DEBUG] Database connection established successfully
+[2025-11-02 03:35:12] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:35:12] [DEBUG] getCategories method called
+[2025-11-02 03:35:12] [DEBUG] Search parameter: empty
+[2025-11-02 03:35:12] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:35:12] [DEBUG] Query parameters: []
+[2025-11-02 03:35:12] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:35:12] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:35:12] === APPLICATION STARTED ===
+[2025-11-02 03:35:12] Environment: development
+[2025-11-02 03:35:12] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:35:12] ===========================
+[2025-11-02 03:35:12] [INFO] Application initialized - Environment: development
+[2025-11-02 03:35:12] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:35:12] [INFO] JWT Secret: SET
+[2025-11-02 03:35:12] [DEBUG] Debug logging enabled
+[2025-11-02 03:35:12] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:35:12] [DEBUG] Request Method: GET
+[2025-11-02 03:35:12] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:35:12] [DEBUG] Query String: 
+[2025-11-02 03:35:12] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:35:12] [DEBUG] Database connection established successfully
+[2025-11-02 03:35:12] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:35:12] [DEBUG] getCategories method called
+[2025-11-02 03:35:12] [DEBUG] Search parameter: empty
+[2025-11-02 03:35:12] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:35:12] [DEBUG] Query parameters: []
+[2025-11-02 03:35:13] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:35:13] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:47:44] === APPLICATION STARTED ===
+[2025-11-02 03:47:44] Environment: development
+[2025-11-02 03:47:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:47:44] ===========================
+[2025-11-02 03:47:44] === APPLICATION STARTED ===
+[2025-11-02 03:47:44] Environment: development
+[2025-11-02 03:47:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:47:44] ===========================
+[2025-11-02 03:47:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:47:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:47:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:47:44] [INFO] JWT Secret: SET
+[2025-11-02 03:47:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:47:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:47:44] [INFO] JWT Secret: SET
+[2025-11-02 03:47:44] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:47:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:47:44] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:47:44] === APPLICATION STARTED ===
+[2025-11-02 03:47:44] Environment: development
+[2025-11-02 03:47:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:47:44] ===========================
+[2025-11-02 03:47:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:47:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:47:44] [INFO] JWT Secret: SET
+[2025-11-02 03:47:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:47:44] === APPLICATION STARTED ===
+[2025-11-02 03:47:44] Environment: development
+[2025-11-02 03:47:44] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:47:44] ===========================
+[2025-11-02 03:47:44] [INFO] Application initialized - Environment: development
+[2025-11-02 03:47:44] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:47:44] [INFO] JWT Secret: SET
+[2025-11-02 03:47:44] [DEBUG] Debug logging enabled
+[2025-11-02 03:47:44] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:47:44] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:47:44] [DEBUG] Request Method: GET
+[2025-11-02 03:47:44] [DEBUG] Request Method: GET
+[2025-11-02 03:47:44] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:47:44] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:47:44] [DEBUG] Query String: 
+[2025-11-02 03:47:44] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:47:44] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:47:44] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:47:45] [DEBUG] Database connection established successfully
+[2025-11-02 03:47:45] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:47:45] [DEBUG] getProducts method called
+[2025-11-02 03:47:45] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:47:45] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:47:45] [DEBUG] Count parameters: []
+[2025-11-02 03:47:45] [DEBUG] Database connection established successfully
+[2025-11-02 03:47:45] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:47:45] [DEBUG] getCategories method called
+[2025-11-02 03:47:45] [DEBUG] Search parameter: empty
+[2025-11-02 03:47:45] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:47:45] [DEBUG] Query parameters: []
+[2025-11-02 03:47:45] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:47:45] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:47:45] [DEBUG] Total products found: 5
+[2025-11-02 03:47:45] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:47:45] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:47:46] [DEBUG] Fetched 5 products successfully
+[2025-11-02 03:47:46] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Request Method: GET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:48:03] [DEBUG] Query String: 
+[2025-11-02 03:48:03] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:48:03] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:03] [DEBUG] Request Method: GET
+[2025-11-02 03:48:03] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:48:03] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:48:03] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:03] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:03] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:03] [DEBUG] getProducts method called
+[2025-11-02 03:48:03] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:48:03] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:48:03] [DEBUG] Count parameters: []
+[2025-11-02 03:48:03] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:03] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:03] [DEBUG] getCategories method called
+[2025-11-02 03:48:03] [DEBUG] Search parameter: empty
+[2025-11-02 03:48:03] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:48:03] [DEBUG] Query parameters: []
+[2025-11-02 03:48:03] [DEBUG] Total products found: 5
+[2025-11-02 03:48:03] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:48:03] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:48:03] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:48:03] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 03:48:03] [DEBUG] Request Method: GET
+[2025-11-02 03:48:03] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 03:48:03] [DEBUG] Query String: 
+[2025-11-02 03:48:03] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 03:48:03] [DEBUG] Fetched 5 products successfully
+[2025-11-02 03:48:03] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:03] === APPLICATION STARTED ===
+[2025-11-02 03:48:03] Environment: development
+[2025-11-02 03:48:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:03] ===========================
+[2025-11-02 03:48:03] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:03] [INFO] JWT Secret: SET
+[2025-11-02 03:48:03] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:03] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:03] [DEBUG] Request Method: GET
+[2025-11-02 03:48:03] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:48:03] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:48:03] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:03] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:03] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:03] [DEBUG] getProducts method called
+[2025-11-02 03:48:03] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:48:03] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:48:03] [DEBUG] Count parameters: []
+[2025-11-02 03:48:03] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:03] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:03] [DEBUG] getCategories method called
+[2025-11-02 03:48:03] [DEBUG] Search parameter: empty
+[2025-11-02 03:48:03] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 03:48:03] [DEBUG] Query parameters: []
+[2025-11-02 03:48:03] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 03:48:03] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 03:48:03] [DEBUG] Total products found: 5
+[2025-11-02 03:48:03] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:48:03] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:48:03] [DEBUG] Fetched 5 products successfully
+[2025-11-02 03:48:03] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] OPTIONS preflight request handled for upload - origin: http://localhost:3000
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] === UPLOAD API REQUEST STARTED ===
+[2025-11-02 03:48:32] [DEBUG] Request Method: POST
+[2025-11-02 03:48:32] [DEBUG] Request URI: /DaddyChipsAPI/upload.php
+[2025-11-02 03:48:32] [DEBUG] UploadAPI constructor called
+[2025-11-02 03:48:32] [DEBUG] Upload directory exists: uploads/
+[2025-11-02 03:48:32] [DEBUG] uploadImage method called
+[2025-11-02 03:48:32] [DEBUG] Attempting to authenticate user for upload
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:48:32 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:48:32 UTC] App Environment: development
+[02-Nov-2025 03:48:32 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:48:32 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"1089940","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryblYTh0hTkxAAOh9o","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:48:32 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:48:32 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:48:32 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:48:32 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:48:32 UTC] Request method: POST
+[02-Nov-2025 03:48:32 UTC] Request URI: /DaddyChipsAPI/upload.php
+[02-Nov-2025 03:48:32 UTC] Token length: 241 characters
+[02-Nov-2025 03:48:32 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:48:32 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:48:32 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:48:32 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:48:32 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:48:32 UTC] User ID: 1
+[02-Nov-2025 03:48:32 UTC] Email: admin@example.com
+[02-Nov-2025 03:48:32 UTC] Role: Admin
+[02-Nov-2025 03:48:32 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:48:32 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:48:32 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:48:32] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:48:32] [DEBUG] File upload attempt - Name: Copilot_20250720_141958.png, Size: 1089739 bytes, Type: image/png
+[2025-11-02 03:48:32] [DEBUG] Image validation passed - Dimensions: 1024x1024, Type: image/png
+[2025-11-02 03:48:32] [DEBUG] Moving uploaded file to: uploads/6906d49051a0d_1762055312.png
+[2025-11-02 03:48:32] [INFO] Image uploaded successfully: Copilot_20250720_141958.png -> 6906d49051a0d_1762055312.png by admin@example.com (ID: 1)
+[2025-11-02 03:48:32] [DEBUG] === UPLOAD API REQUEST COMPLETED ===
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:32] [DEBUG] Request Method: POST
+[2025-11-02 03:48:32] [DEBUG] Request URI: /DaddyChipsAPI/products.php
+[2025-11-02 03:48:32] [DEBUG] Query String: 
+[2025-11-02 03:48:32] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:32] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:32] [DEBUG] Routing main request - Method: POST, ID: none
+[2025-11-02 03:48:32] [DEBUG] createProduct method called
+[2025-11-02 03:48:32] [DEBUG] Attempting to authenticate user for createProduct
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:48:32 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:48:32 UTC] App Environment: development
+[02-Nov-2025 03:48:32 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:48:32 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"333","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:48:32 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:48:32 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:48:32 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:48:32 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:48:32 UTC] Request method: POST
+[02-Nov-2025 03:48:32 UTC] Request URI: /DaddyChipsAPI/products.php
+[02-Nov-2025 03:48:32 UTC] Token length: 241 characters
+[02-Nov-2025 03:48:32 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:48:32 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:48:32 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:48:32 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:48:32 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:48:32 UTC] User ID: 1
+[02-Nov-2025 03:48:32 UTC] Email: admin@example.com
+[02-Nov-2025 03:48:32 UTC] Role: Admin
+[02-Nov-2025 03:48:32 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:48:32 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:48:32 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:48:32 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:48:32] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:48:32] [DEBUG] Received product data: {"name":"testproduct","description":"dfgdf","category_id":"fgfhrthjryjtry-u6ryu-5ryu4","category_name":"snacks1","standard_price":1000,"offer_price":1000,"stock_quantity":98,"product_image":"http:\/\/localhost\/DaddyChipsAPI\/uploads\/6906d49051a0d_1762055312.png","tags":["34","34","3"],"is_active":true,"created_by":"admin@example.com"}
+[2025-11-02 03:48:32] [DEBUG] Executing insert query for product: testproduct
+[2025-11-02 03:48:32] [INFO] Product created successfully: testproduct (ID: prod1762055312268) by admin@example.com
+[2025-11-02 03:48:32] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:48:32] === APPLICATION STARTED ===
+[2025-11-02 03:48:32] Environment: development
+[2025-11-02 03:48:32] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:32] ===========================
+[2025-11-02 03:48:32] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:32] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:32] [INFO] JWT Secret: SET
+[2025-11-02 03:48:32] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:32] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:32] [DEBUG] Request Method: GET
+[2025-11-02 03:48:32] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:48:32] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:48:32] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:32] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:32] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:32] [DEBUG] getProducts method called
+[2025-11-02 03:48:32] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:48:32] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:48:32] [DEBUG] Count parameters: []
+[2025-11-02 03:48:32] [DEBUG] Total products found: 6
+[2025-11-02 03:48:32] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:48:32] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:48:32] [DEBUG] Fetched 6 products successfully
+[2025-11-02 03:48:32] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:56] === APPLICATION STARTED ===
+[2025-11-02 03:48:56] Environment: development
+[2025-11-02 03:48:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:56] ===========================
+[2025-11-02 03:48:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:56] [INFO] JWT Secret: SET
+[2025-11-02 03:48:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:56] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:48:56] === APPLICATION STARTED ===
+[2025-11-02 03:48:56] Environment: development
+[2025-11-02 03:48:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:56] ===========================
+[2025-11-02 03:48:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:56] [INFO] JWT Secret: SET
+[2025-11-02 03:48:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:56] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:56] [DEBUG] Request Method: PUT
+[2025-11-02 03:48:56] [DEBUG] Request URI: /DaddyChipsAPI/products.php?id=prod1762055312268
+[2025-11-02 03:48:56] [DEBUG] Query String: id=prod1762055312268
+[2025-11-02 03:48:56] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:56] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:56] [DEBUG] Routing main request - Method: PUT, ID: prod1762055312268
+[2025-11-02 03:48:56] [DEBUG] updateProduct method called for ID: prod1762055312268
+[2025-11-02 03:48:56] [DEBUG] Attempting to authenticate user for updateProduct
+[02-Nov-2025 03:48:56 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:48:56 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:48:56 UTC] App Environment: development
+[02-Nov-2025 03:48:56 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:48:56 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"333","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:48:56 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:48:56 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:48:56 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:48:56 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:48:56 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:48:56 UTC] Request method: PUT
+[02-Nov-2025 03:48:56 UTC] Request URI: /DaddyChipsAPI/products.php?id=prod1762055312268
+[02-Nov-2025 03:48:56 UTC] Token length: 241 characters
+[02-Nov-2025 03:48:56 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:48:56 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:48:56 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:48:56 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:48:56 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:48:56 UTC] User ID: 1
+[02-Nov-2025 03:48:56 UTC] Email: admin@example.com
+[02-Nov-2025 03:48:56 UTC] Role: Admin
+[02-Nov-2025 03:48:56 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:48:56 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:48:56 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:48:56 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:48:56] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:48:56] [DEBUG] Received update data for product prod1762055312268: {"name":"authproduct","description":"dfgdf","category_id":"fgfhrthjryjtry-u6ryu-5ryu4","category_name":"snacks1","standard_price":1000,"offer_price":1000,"stock_quantity":98,"product_image":"http:\/\/localhost\/DaddyChipsAPI\/uploads\/6906d49051a0d_1762055312.png","tags":["34","34","3"],"is_active":true,"created_by":"admin@example.com"}
+[2025-11-02 03:48:56] [DEBUG] Checking if product exists: prod1762055312268
+[2025-11-02 03:48:56] [DEBUG] Product exists check for prod1762055312268: YES
+[2025-11-02 03:48:56] [DEBUG] Executing update query for product: prod1762055312268
+[2025-11-02 03:48:56] [INFO] Product updated successfully: prod1762055312268 by admin@example.com
+[2025-11-02 03:48:56] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:48:56] === APPLICATION STARTED ===
+[2025-11-02 03:48:56] Environment: development
+[2025-11-02 03:48:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:56] ===========================
+[2025-11-02 03:48:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:56] [INFO] JWT Secret: SET
+[2025-11-02 03:48:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:56] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:48:56] === APPLICATION STARTED ===
+[2025-11-02 03:48:56] Environment: development
+[2025-11-02 03:48:56] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:48:56] ===========================
+[2025-11-02 03:48:56] [INFO] Application initialized - Environment: development
+[2025-11-02 03:48:56] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:48:56] [INFO] JWT Secret: SET
+[2025-11-02 03:48:56] [DEBUG] Debug logging enabled
+[2025-11-02 03:48:56] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:48:56] [DEBUG] Request Method: GET
+[2025-11-02 03:48:56] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:48:56] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:48:56] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:48:57] [DEBUG] Database connection established successfully
+[2025-11-02 03:48:57] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:48:57] [DEBUG] getProducts method called
+[2025-11-02 03:48:57] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:48:57] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:48:57] [DEBUG] Count parameters: []
+[2025-11-02 03:48:57] [DEBUG] Total products found: 6
+[2025-11-02 03:48:57] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:48:57] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:48:57] [DEBUG] Fetched 6 products successfully
+[2025-11-02 03:48:57] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:49:12] === APPLICATION STARTED ===
+[2025-11-02 03:49:12] Environment: development
+[2025-11-02 03:49:12] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:49:12] ===========================
+[2025-11-02 03:49:12] [INFO] Application initialized - Environment: development
+[2025-11-02 03:49:12] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:49:12] [INFO] JWT Secret: SET
+[2025-11-02 03:49:12] [DEBUG] Debug logging enabled
+[2025-11-02 03:49:12] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:49:12] === APPLICATION STARTED ===
+[2025-11-02 03:49:12] Environment: development
+[2025-11-02 03:49:12] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:49:12] ===========================
+[2025-11-02 03:49:12] [INFO] Application initialized - Environment: development
+[2025-11-02 03:49:12] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:49:12] [INFO] JWT Secret: SET
+[2025-11-02 03:49:12] [DEBUG] Debug logging enabled
+[2025-11-02 03:49:12] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:49:12] [DEBUG] Request Method: DELETE
+[2025-11-02 03:49:12] [DEBUG] Request URI: /DaddyChipsAPI/products.php?id=prod1762055312268
+[2025-11-02 03:49:12] [DEBUG] Query String: id=prod1762055312268
+[2025-11-02 03:49:12] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:49:12] [DEBUG] Database connection established successfully
+[2025-11-02 03:49:12] [DEBUG] Routing main request - Method: DELETE, ID: prod1762055312268
+[2025-11-02 03:49:12] [DEBUG] deleteProduct method called for ID: prod1762055312268
+[2025-11-02 03:49:12] [DEBUG] Attempting to authenticate user for deleteProduct
+[02-Nov-2025 03:49:12 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 03:49:12 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 03:49:12 UTC] App Environment: development
+[02-Nov-2025 03:49:12 UTC] === END INITIALIZATION ===
+[02-Nov-2025 03:49:12 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 03:49:12 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 03:49:12 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 03:49:12 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 03:49:12 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 03:49:12 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 03:49:12 UTC] Request method: DELETE
+[02-Nov-2025 03:49:12 UTC] Request URI: /DaddyChipsAPI/products.php?id=prod1762055312268
+[02-Nov-2025 03:49:12 UTC] Token length: 241 characters
+[02-Nov-2025 03:49:12 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 03:49:12 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 03:49:12 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 03:49:12 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 03:49:12 UTC] ✅ All token validations PASSED
+[02-Nov-2025 03:49:12 UTC] User ID: 1
+[02-Nov-2025 03:49:12 UTC] Email: admin@example.com
+[02-Nov-2025 03:49:12 UTC] Role: Admin
+[02-Nov-2025 03:49:12 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 03:49:12 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 03:49:12 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 03:49:12 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 03:49:12] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 03:49:12] [DEBUG] Checking if product exists: prod1762055312268
+[2025-11-02 03:49:13] [DEBUG] Product exists check for prod1762055312268: YES
+[2025-11-02 03:49:13] [DEBUG] Retrieved product name for prod1762055312268: authproduct
+[2025-11-02 03:49:13] [DEBUG] Executing delete query for product: prod1762055312268 (authproduct)
+[2025-11-02 03:49:13] [INFO] Product deleted successfully: authproduct (prod1762055312268) by admin@example.com
+[2025-11-02 03:49:13] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 03:49:13] === APPLICATION STARTED ===
+[2025-11-02 03:49:13] Environment: development
+[2025-11-02 03:49:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:49:13] ===========================
+[2025-11-02 03:49:13] [INFO] Application initialized - Environment: development
+[2025-11-02 03:49:13] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:49:13] [INFO] JWT Secret: SET
+[2025-11-02 03:49:13] [DEBUG] Debug logging enabled
+[2025-11-02 03:49:13] [DEBUG] OPTIONS preflight request handled for products - origin: http://localhost:3000
+[2025-11-02 03:49:13] === APPLICATION STARTED ===
+[2025-11-02 03:49:13] Environment: development
+[2025-11-02 03:49:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 03:49:13] ===========================
+[2025-11-02 03:49:13] [INFO] Application initialized - Environment: development
+[2025-11-02 03:49:13] [INFO] Database: localhost/your_database_name
+[2025-11-02 03:49:13] [INFO] JWT Secret: SET
+[2025-11-02 03:49:13] [DEBUG] Debug logging enabled
+[2025-11-02 03:49:13] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 03:49:13] [DEBUG] Request Method: GET
+[2025-11-02 03:49:13] [DEBUG] Request URI: /DaddyChipsAPI/products.php?page=1&limit=10
+[2025-11-02 03:49:13] [DEBUG] Query String: page=1&limit=10
+[2025-11-02 03:49:13] [DEBUG] ProductsAPI constructor called
+[2025-11-02 03:49:13] [DEBUG] Database connection established successfully
+[2025-11-02 03:49:13] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 03:49:13] [DEBUG] getProducts method called
+[2025-11-02 03:49:13] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 03:49:13] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 03:49:13] [DEBUG] Count parameters: []
+[2025-11-02 03:49:13] [DEBUG] Total products found: 5
+[2025-11-02 03:49:13] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 03:49:13] [DEBUG] Query parameters: [10,0]
+[2025-11-02 03:49:13] [DEBUG] Fetched 5 products successfully
+[2025-11-02 03:49:13] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:08:57] === APPLICATION STARTED ===
+[2025-11-02 04:08:57] Environment: development
+[2025-11-02 04:08:57] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:08:57] ===========================
+[2025-11-02 04:08:57] [INFO] Application initialized - Environment: development
+[2025-11-02 04:08:57] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:08:57] [INFO] JWT Secret: SET
+[2025-11-02 04:08:57] [DEBUG] Debug logging enabled
+[2025-11-02 04:08:57] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:09:03] === APPLICATION STARTED ===
+[2025-11-02 04:09:03] Environment: development
+[2025-11-02 04:09:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:03] ===========================
+[2025-11-02 04:09:03] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:03] [INFO] JWT Secret: SET
+[2025-11-02 04:09:03] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:03] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:09:03] === APPLICATION STARTED ===
+[2025-11-02 04:09:03] Environment: development
+[2025-11-02 04:09:03] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:03] ===========================
+[2025-11-02 04:09:03] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:03] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:03] [INFO] JWT Secret: SET
+[2025-11-02 04:09:03] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:04] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:09:04] [DEBUG] Request Method: GET
+[2025-11-02 04:09:04] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:09:04] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:09:04] [DEBUG] Database connection established successfully
+[2025-11-02 04:09:04] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:09:04] [DEBUG] getSettings method called
+[2025-11-02 04:09:04] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:09:04] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:09:04] === APPLICATION STARTED ===
+[2025-11-02 04:09:04] Environment: development
+[2025-11-02 04:09:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:04] ===========================
+[2025-11-02 04:09:04] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:04] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:04] [INFO] JWT Secret: SET
+[2025-11-02 04:09:04] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:04] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:09:04] [DEBUG] Request Method: GET
+[2025-11-02 04:09:04] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:09:04] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:09:04] [DEBUG] Database connection established successfully
+[2025-11-02 04:09:04] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:09:04] [DEBUG] getSettings method called
+[2025-11-02 04:09:04] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:09:04] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:09:15] === APPLICATION STARTED ===
+[2025-11-02 04:09:15] Environment: development
+[2025-11-02 04:09:15] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:15] ===========================
+[2025-11-02 04:09:15] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:15] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:15] [INFO] JWT Secret: SET
+[2025-11-02 04:09:15] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:15] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:09:15] === APPLICATION STARTED ===
+[2025-11-02 04:09:15] Environment: development
+[2025-11-02 04:09:15] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:15] ===========================
+[2025-11-02 04:09:15] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:15] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:15] [INFO] JWT Secret: SET
+[2025-11-02 04:09:15] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:15] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:09:15] [DEBUG] Request Method: PUT
+[2025-11-02 04:09:15] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:09:15] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:09:15] [DEBUG] Database connection established successfully
+[2025-11-02 04:09:15] [DEBUG] Routing main request - Method: PUT
+[2025-11-02 04:09:15] [DEBUG] updateSettings method called
+[2025-11-02 04:09:15] [DEBUG] Attempting to authenticate user for updateSettings
+[02-Nov-2025 04:09:15 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 04:09:15 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 04:09:15 UTC] App Environment: development
+[02-Nov-2025 04:09:15 UTC] === END INITIALIZATION ===
+[02-Nov-2025 04:09:15 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"39","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 04:09:15 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 04:09:15 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 04:09:15 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 04:09:15 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 04:09:15 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 04:09:15 UTC] Request method: PUT
+[02-Nov-2025 04:09:15 UTC] Request URI: /DaddyChipsAPI/settings.php
+[02-Nov-2025 04:09:15 UTC] Token length: 241 characters
+[02-Nov-2025 04:09:15 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 04:09:15 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 04:09:15 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 04:09:15 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 04:09:15 UTC] ✅ All token validations PASSED
+[02-Nov-2025 04:09:15 UTC] User ID: 1
+[02-Nov-2025 04:09:15 UTC] Email: admin@example.com
+[02-Nov-2025 04:09:15 UTC] Role: Admin
+[02-Nov-2025 04:09:15 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 04:09:15 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 04:09:15 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 04:09:15 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 04:09:15] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 04:09:15] [DEBUG] Received settings update data: {"BusinessWhatsAppNumber":"9952322485"}
+[2025-11-02 04:09:15] [DEBUG] BusinessWhatsAppNumber exists in database: YES
+[2025-11-02 04:09:15] [DEBUG] Updating existing BusinessWhatsAppNumber setting
+[2025-11-02 04:09:15] [INFO] Settings updated successfully by admin@example.com (ID: 1) - WhatsApp: 9952322485
+[2025-11-02 04:09:15] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:09:31] === APPLICATION STARTED ===
+[2025-11-02 04:09:31] Environment: development
+[2025-11-02 04:09:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:31] ===========================
+[2025-11-02 04:09:31] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:31] [INFO] JWT Secret: SET
+[2025-11-02 04:09:31] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:31] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:09:31] === APPLICATION STARTED ===
+[2025-11-02 04:09:31] Environment: development
+[2025-11-02 04:09:31] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:31] ===========================
+[2025-11-02 04:09:31] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:31] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:31] [INFO] JWT Secret: SET
+[2025-11-02 04:09:31] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:31] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:09:31] [DEBUG] Request Method: DELETE
+[2025-11-02 04:09:31] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:09:31] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:09:31] [DEBUG] Database connection established successfully
+[2025-11-02 04:09:31] [DEBUG] Routing main request - Method: DELETE
+[2025-11-02 04:09:31] [DEBUG] resetSettings method called
+[2025-11-02 04:09:31] [DEBUG] Attempting to authenticate user for resetSettings
+[02-Nov-2025 04:09:31 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 04:09:31 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 04:09:31 UTC] App Environment: development
+[02-Nov-2025 04:09:31 UTC] === END INITIALIZATION ===
+[02-Nov-2025 04:09:31 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 04:09:31 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 04:09:31 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 04:09:31 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 04:09:31 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 04:09:31 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 04:09:31 UTC] Request method: DELETE
+[02-Nov-2025 04:09:31 UTC] Request URI: /DaddyChipsAPI/settings.php
+[02-Nov-2025 04:09:31 UTC] Token length: 241 characters
+[02-Nov-2025 04:09:31 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 04:09:31 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 04:09:31 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 04:09:31 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 04:09:31 UTC] ✅ All token validations PASSED
+[02-Nov-2025 04:09:31 UTC] User ID: 1
+[02-Nov-2025 04:09:31 UTC] Email: admin@example.com
+[02-Nov-2025 04:09:31 UTC] Role: Admin
+[02-Nov-2025 04:09:31 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 04:09:31 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 04:09:31 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 04:09:31 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 04:09:31] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 04:09:31] [DEBUG] Executing reset query for BusinessWhatsAppNumber
+[2025-11-02 04:09:31] [INFO] Settings reset successfully by admin@example.com (ID: 1)
+[2025-11-02 04:09:31] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:09:51] === APPLICATION STARTED ===
+[2025-11-02 04:09:51] Environment: development
+[2025-11-02 04:09:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:51] ===========================
+[2025-11-02 04:09:51] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:51] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:51] [INFO] JWT Secret: SET
+[2025-11-02 04:09:51] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:51] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:09:51] === APPLICATION STARTED ===
+[2025-11-02 04:09:51] Environment: development
+[2025-11-02 04:09:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:09:51] ===========================
+[2025-11-02 04:09:51] [INFO] Application initialized - Environment: development
+[2025-11-02 04:09:51] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:09:51] [INFO] JWT Secret: SET
+[2025-11-02 04:09:51] [DEBUG] Debug logging enabled
+[2025-11-02 04:09:51] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:09:51] [DEBUG] Request Method: PUT
+[2025-11-02 04:09:51] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:09:51] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:09:51] [DEBUG] Database connection established successfully
+[2025-11-02 04:09:51] [DEBUG] Routing main request - Method: PUT
+[2025-11-02 04:09:51] [DEBUG] updateSettings method called
+[2025-11-02 04:09:51] [DEBUG] Attempting to authenticate user for updateSettings
+[02-Nov-2025 04:09:51 UTC] === TOKEN VERIFIER INITIALIZATION ===
+[02-Nov-2025 04:09:51 UTC] JWT Secret Key: SET (27 chars)
+[02-Nov-2025 04:09:51 UTC] App Environment: development
+[02-Nov-2025 04:09:51 UTC] === END INITIALIZATION ===
+[02-Nov-2025 04:09:51 UTC] Apache request headers available: {"Host":"localhost","Connection":"keep-alive","Content-Length":"39","sec-ch-ua-platform":"\"Windows\"","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmFtZSI6IlN5c3RlbSBBZG1pbmlzdHJhdG9yIiwiaWF0IjoxNzYyMDUyOTczLCJleHAiOjE3NjIxMzkzNzN9.-lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-zIJvMSPHK4fdQ","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36","sec-ch-ua":"\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"","Content-Type":"application\/json","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost:3000","Sec-Fetch-Site":"same-site","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost:3000\/","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-US,en;q=0.9"}
+[02-Nov-2025 04:09:51 UTC] Found Authorization in apache_request_headers()
+[02-Nov-2025 04:09:51 UTC] === TOKEN VERIFICATION STARTED ===
+[02-Nov-2025 04:09:51 UTC] Token received: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkI...
+[02-Nov-2025 04:09:51 UTC] Authorization header: Not set in HTTP_AUTHORIZATION
+[02-Nov-2025 04:09:51 UTC] Raw Authorization: Not set in Authorization
+[02-Nov-2025 04:09:51 UTC] Request method: PUT
+[02-Nov-2025 04:09:51 UTC] Request URI: /DaddyChipsAPI/settings.php
+[02-Nov-2025 04:09:51 UTC] Token length: 241 characters
+[02-Nov-2025 04:09:51 UTC] Header part: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz...
+[02-Nov-2025 04:09:51 UTC] Payload part: eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im...
+[02-Nov-2025 04:09:51 UTC] Signature part: -lls9-E2GCZ7CxkgrhbVBCJ4ABqyv-...
+[02-Nov-2025 04:09:51 UTC] ✅ Signature verification PASSED
+[02-Nov-2025 04:09:51 UTC] ✅ All token validations PASSED
+[02-Nov-2025 04:09:51 UTC] User ID: 1
+[02-Nov-2025 04:09:51 UTC] Email: admin@example.com
+[02-Nov-2025 04:09:51 UTC] Role: Admin
+[02-Nov-2025 04:09:51 UTC] Issued at: 2025-11-02 03:09:33
+[02-Nov-2025 04:09:51 UTC] Expires at: 2025-11-03 03:09:33
+[02-Nov-2025 04:09:51 UTC] ✅ Token verification SUCCESS for user: admin@example.com
+[02-Nov-2025 04:09:51 UTC] === TOKEN VERIFICATION COMPLETED ===
+[2025-11-02 04:09:51] [DEBUG] User authenticated: admin@example.com (ID: 1)
+[2025-11-02 04:09:51] [DEBUG] Received settings update data: {"BusinessWhatsAppNumber":"9952322484"}
+[2025-11-02 04:09:51] [DEBUG] BusinessWhatsAppNumber exists in database: YES
+[2025-11-02 04:09:51] [DEBUG] Updating existing BusinessWhatsAppNumber setting
+[2025-11-02 04:09:51] [INFO] Settings updated successfully by admin@example.com (ID: 1) - WhatsApp: 9952322484
+[2025-11-02 04:09:51] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getCategories method called
+[2025-11-02 04:10:20] [DEBUG] Search parameter: empty
+[2025-11-02 04:10:20] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:10:20] [DEBUG] Query parameters: []
+[2025-11-02 04:10:20] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:10:20] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getProducts method called
+[2025-11-02 04:10:20] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:10:20] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:10:20] [DEBUG] Count parameters: []
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getCategories method called
+[2025-11-02 04:10:20] [DEBUG] Search parameter: empty
+[2025-11-02 04:10:20] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:10:20] [DEBUG] Query parameters: []
+[2025-11-02 04:10:20] [DEBUG] Total products found: 5
+[2025-11-02 04:10:20] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:10:20] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:10:20] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:10:20] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:10:20] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getProducts method called
+[2025-11-02 04:10:20] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:10:20] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:10:20] [DEBUG] Count parameters: []
+[2025-11-02 04:10:20] [DEBUG] Total products found: 5
+[2025-11-02 04:10:20] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:10:20] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:10:20] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getProducts method called
+[2025-11-02 04:10:20] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:10:20] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:10:20] [DEBUG] Count parameters: []
+[2025-11-02 04:10:20] [DEBUG] Total products found: 5
+[2025-11-02 04:10:20] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:10:20] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:10:20] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:10:20] === APPLICATION STARTED ===
+[2025-11-02 04:10:20] Environment: development
+[2025-11-02 04:10:20] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:10:20] ===========================
+[2025-11-02 04:10:20] [INFO] Application initialized - Environment: development
+[2025-11-02 04:10:20] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:10:20] [INFO] JWT Secret: SET
+[2025-11-02 04:10:20] [DEBUG] Debug logging enabled
+[2025-11-02 04:10:20] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:10:20] [DEBUG] Request Method: GET
+[2025-11-02 04:10:20] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:10:20] [DEBUG] Query String: 
+[2025-11-02 04:10:20] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:10:20] [DEBUG] Database connection established successfully
+[2025-11-02 04:10:20] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:10:20] [DEBUG] getProducts method called
+[2025-11-02 04:10:20] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:10:20] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:10:20] [DEBUG] Count parameters: []
+[2025-11-02 04:10:21] [DEBUG] Total products found: 5
+[2025-11-02 04:10:21] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:10:21] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:10:21] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:10:21] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===

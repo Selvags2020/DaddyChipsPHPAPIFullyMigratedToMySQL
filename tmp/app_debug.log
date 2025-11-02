@@ -1,0 +1,9 @@
+[2025-11-02 02:50:23] === APPLICATION STARTED ===
+[2025-11-02 02:50:23] Environment: development
+[2025-11-02 02:50:23] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../tmp/app_debug.log
+[2025-11-02 02:50:23] ===========================
+[2025-11-02 02:50:23] [INFO] Application initialized - Environment: development
+[2025-11-02 02:50:23] [INFO] Database: localhost/your_database_name
+[2025-11-02 02:50:23] [INFO] JWT Secret: SET
+[2025-11-02 02:50:23] [DEBUG] Debug logging enabled
+[2025-11-02 02:50:23] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
