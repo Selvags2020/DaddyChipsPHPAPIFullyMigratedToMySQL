@@ -1,0 +1,747 @@
+=== Your App Name LOG - 2025-11-03 ===
+=== Environment: development ===
+=== Generated: 2025-11-03 13:25:41 ===
+=== Log Level: DEBUG ===
+============================================
+
+[2025-11-03 13:25:41] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:41] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:41] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:41] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:41] [INFO] JWT Secret: SET
+[2025-11-03 13:25:41] [INFO] JWT Secret: SET
+[2025-11-03 13:25:41] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:41] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:41] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:25:41] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:25:41] [DEBUG] Request Method: GET
+[2025-11-03 13:25:41] [DEBUG] Request Method: GET
+[2025-11-03 13:25:41] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:25:41] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:25:41] [DEBUG] Query String: 
+[2025-11-03 13:25:41] [DEBUG] Query String: 
+[2025-11-03 13:25:41] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:25:41] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:25:42] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:42] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:42] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:42] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:42] [DEBUG] getProducts method called
+[2025-11-03 13:25:42] [DEBUG] getCategories method called
+[2025-11-03 13:25:42] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:25:42] [DEBUG] Search parameter: empty
+[2025-11-03 13:25:42] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:25:42] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:25:42] [DEBUG] Query parameters: []
+[2025-11-03 13:25:42] [DEBUG] Count parameters: []
+[2025-11-03 13:25:42] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:25:42] [DEBUG] Total products found: 5
+[2025-11-03 13:25:42] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:25:42] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:25:42] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:25:42] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:25:42] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:25:42] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:42] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:42] [INFO] JWT Secret: SET
+[2025-11-03 13:25:42] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:42] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:42] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:42] [INFO] JWT Secret: SET
+[2025-11-03 13:25:42] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:42] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:25:42] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:25:42] [DEBUG] Request Method: GET
+[2025-11-03 13:25:42] [DEBUG] Request Method: GET
+[2025-11-03 13:25:42] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:25:42] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:25:42] [DEBUG] Query String: 
+[2025-11-03 13:25:42] [DEBUG] Query String: 
+[2025-11-03 13:25:42] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:25:42] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:25:42] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:42] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:42] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:42] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:42] [DEBUG] getCategories method called
+[2025-11-03 13:25:42] [DEBUG] getProducts method called
+[2025-11-03 13:25:42] [DEBUG] Search parameter: empty
+[2025-11-03 13:25:42] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:25:42] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:25:42] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:25:42] [DEBUG] Query parameters: []
+[2025-11-03 13:25:42] [DEBUG] Count parameters: []
+[2025-11-03 13:25:42] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:25:42] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:25:42] [DEBUG] Total products found: 5
+[2025-11-03 13:25:42] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:25:42] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:25:42] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:25:42] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:25:43] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:43] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:43] [INFO] JWT Secret: SET
+[2025-11-03 13:25:43] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:43] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:25:43] [DEBUG] Request Method: GET
+[2025-11-03 13:25:43] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:25:43] [DEBUG] Query String: 
+[2025-11-03 13:25:43] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:25:43] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:43] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:43] [DEBUG] getProducts method called
+[2025-11-03 13:25:43] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:25:43] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:25:43] [DEBUG] Count parameters: []
+[2025-11-03 13:25:43] [DEBUG] Total products found: 5
+[2025-11-03 13:25:43] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:25:43] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:25:43] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:25:43] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:25:43] [INFO] Application initialized - Environment: development
+[2025-11-03 13:25:43] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:25:43] [INFO] JWT Secret: SET
+[2025-11-03 13:25:43] [DEBUG] Debug logging enabled
+[2025-11-03 13:25:43] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:25:43] [DEBUG] Request Method: GET
+[2025-11-03 13:25:43] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:25:43] [DEBUG] Query String: 
+[2025-11-03 13:25:43] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:25:43] [DEBUG] Database connection established successfully
+[2025-11-03 13:25:43] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:25:43] [DEBUG] getProducts method called
+[2025-11-03 13:25:43] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:25:43] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:25:43] [DEBUG] Count parameters: []
+[2025-11-03 13:25:43] [DEBUG] Total products found: 5
+[2025-11-03 13:25:43] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:25:43] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:25:43] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:25:43] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:30:34] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:34] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:34] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:34] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:34] [INFO] JWT Secret: SET
+[2025-11-03 13:30:34] [INFO] JWT Secret: SET
+[2025-11-03 13:30:34] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:34] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:34] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:30:34] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:30:34] [DEBUG] Request Method: GET
+[2025-11-03 13:30:34] [DEBUG] Request Method: GET
+[2025-11-03 13:30:34] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:30:34] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:30:34] [DEBUG] Query String: 
+[2025-11-03 13:30:34] [DEBUG] Query String: 
+[2025-11-03 13:30:34] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:30:34] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:30:34] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:34] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:34] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:34] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:34] [DEBUG] getCategories method called
+[2025-11-03 13:30:34] [DEBUG] getProducts method called
+[2025-11-03 13:30:34] [DEBUG] Search parameter: empty
+[2025-11-03 13:30:34] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:30:34] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:30:34] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:30:34] [DEBUG] Query parameters: []
+[2025-11-03 13:30:34] [DEBUG] Count parameters: []
+[2025-11-03 13:30:34] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:30:34] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:30:34] [DEBUG] Total products found: 5
+[2025-11-03 13:30:34] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:30:34] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:30:34] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:30:34] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:30:34] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:34] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:34] [INFO] JWT Secret: SET
+[2025-11-03 13:30:34] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:34] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:34] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:34] [INFO] JWT Secret: SET
+[2025-11-03 13:30:34] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:34] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:30:34] [DEBUG] Request Method: GET
+[2025-11-03 13:30:34] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:30:34] [DEBUG] Query String: 
+[2025-11-03 13:30:34] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:30:34] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:30:34] [DEBUG] Request Method: GET
+[2025-11-03 13:30:34] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:30:34] [DEBUG] Query String: 
+[2025-11-03 13:30:34] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:30:34] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:34] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:34] [DEBUG] getCategories method called
+[2025-11-03 13:30:34] [DEBUG] Search parameter: empty
+[2025-11-03 13:30:34] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:30:34] [DEBUG] Query parameters: []
+[2025-11-03 13:30:34] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:34] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:34] [DEBUG] getProducts method called
+[2025-11-03 13:30:34] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:30:34] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:30:34] [DEBUG] Count parameters: []
+[2025-11-03 13:30:34] [DEBUG] Total products found: 5
+[2025-11-03 13:30:34] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:30:34] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:30:34] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:30:34] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:30:35] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:35] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:35] [INFO] JWT Secret: SET
+[2025-11-03 13:30:35] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:35] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:30:35] [DEBUG] Request Method: GET
+[2025-11-03 13:30:35] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:30:35] [DEBUG] Query String: 
+[2025-11-03 13:30:35] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:30:35] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:35] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:35] [DEBUG] getProducts method called
+[2025-11-03 13:30:35] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:30:35] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:30:35] [DEBUG] Count parameters: []
+[2025-11-03 13:30:35] [DEBUG] Total products found: 5
+[2025-11-03 13:30:35] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:30:35] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:30:35] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:30:35] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:30:35] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:30:35] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:30:35] [INFO] Application initialized - Environment: development
+[2025-11-03 13:30:35] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:30:35] [INFO] JWT Secret: SET
+[2025-11-03 13:30:35] [DEBUG] Debug logging enabled
+[2025-11-03 13:30:35] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:30:35] [DEBUG] Request Method: GET
+[2025-11-03 13:30:35] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:30:35] [DEBUG] Query String: 
+[2025-11-03 13:30:35] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:30:35] [DEBUG] Database connection established successfully
+[2025-11-03 13:30:35] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:30:35] [DEBUG] getProducts method called
+[2025-11-03 13:30:35] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:30:35] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:30:35] [DEBUG] Count parameters: []
+[2025-11-03 13:30:35] [DEBUG] Total products found: 5
+[2025-11-03 13:30:35] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:30:35] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:30:35] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:30:35] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:35:49] [INFO] Application initialized - Environment: development
+[2025-11-03 13:35:49] [INFO] Application initialized - Environment: development
+[2025-11-03 13:35:49] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:35:49] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:35:49] [INFO] JWT Secret: SET
+[2025-11-03 13:35:49] [INFO] JWT Secret: SET
+[2025-11-03 13:35:49] [DEBUG] Debug logging enabled
+[2025-11-03 13:35:49] [DEBUG] Debug logging enabled
+[2025-11-03 13:35:49] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:35:49] [DEBUG] Request Method: GET
+[2025-11-03 13:35:49] [DEBUG] Request Method: GET
+[2025-11-03 13:35:49] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:35:49] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:35:49] [DEBUG] Query String: 
+[2025-11-03 13:35:49] [DEBUG] Query String: 
+[2025-11-03 13:35:49] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:35:49] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:35:49] [DEBUG] Database connection established successfully
+[2025-11-03 13:35:49] [DEBUG] Database connection established successfully
+[2025-11-03 13:35:49] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:35:49] [DEBUG] getProducts method called
+[2025-11-03 13:35:49] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:35:49] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:35:49] [DEBUG] getCategories method called
+[2025-11-03 13:35:49] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:35:49] [DEBUG] Search parameter: empty
+[2025-11-03 13:35:49] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:35:49] [DEBUG] Count parameters: []
+[2025-11-03 13:35:49] [DEBUG] Query parameters: []
+[2025-11-03 13:35:49] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:35:49] [DEBUG] Total products found: 5
+[2025-11-03 13:35:49] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:35:49] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:35:49] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:35:49] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:35:49] [INFO] Application initialized - Environment: development
+[2025-11-03 13:35:49] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:35:49] [INFO] JWT Secret: SET
+[2025-11-03 13:35:49] [DEBUG] Debug logging enabled
+[2025-11-03 13:35:49] [INFO] Application initialized - Environment: development
+[2025-11-03 13:35:49] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:35:49] [INFO] JWT Secret: SET
+[2025-11-03 13:35:49] [DEBUG] Debug logging enabled
+[2025-11-03 13:35:49] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:35:49] [DEBUG] Request Method: GET
+[2025-11-03 13:35:49] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:35:49] [DEBUG] Query String: 
+[2025-11-03 13:35:49] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:35:49] [DEBUG] Request Method: GET
+[2025-11-03 13:35:49] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:35:49] [DEBUG] Query String: 
+[2025-11-03 13:35:49] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:35:49] [DEBUG] Database connection established successfully
+[2025-11-03 13:35:49] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:35:49] [DEBUG] getCategories method called
+[2025-11-03 13:35:49] [DEBUG] Search parameter: empty
+[2025-11-03 13:35:49] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:35:49] [DEBUG] Query parameters: []
+[2025-11-03 13:35:49] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:35:49] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:35:49] [DEBUG] Database connection established successfully
+[2025-11-03 13:35:49] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:35:49] [DEBUG] getProducts method called
+[2025-11-03 13:35:49] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:35:49] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:35:49] [DEBUG] Count parameters: []
+[2025-11-03 13:35:49] [DEBUG] Total products found: 5
+[2025-11-03 13:35:49] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:35:49] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:35:49] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:35:49] [INFO] Application initialized - Environment: development
+[2025-11-03 13:35:49] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:35:49] [INFO] JWT Secret: SET
+[2025-11-03 13:35:49] [DEBUG] Debug logging enabled
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:35:49] [DEBUG] Request Method: GET
+[2025-11-03 13:35:49] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:35:49] [DEBUG] Query String: 
+[2025-11-03 13:35:49] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:35:49] [DEBUG] Database connection established successfully
+[2025-11-03 13:35:49] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:35:49] [DEBUG] getProducts method called
+[2025-11-03 13:35:49] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:35:49] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:35:49] [DEBUG] Count parameters: []
+[2025-11-03 13:35:49] [DEBUG] Total products found: 5
+[2025-11-03 13:35:49] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:35:49] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:35:49] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:35:49] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getProducts method called
+[2025-11-03 13:37:51] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:37:51] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:37:51] [DEBUG] Count parameters: []
+[2025-11-03 13:37:51] [DEBUG] Total products found: 5
+[2025-11-03 13:37:51] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:37:51] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:37:51] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getCategories method called
+[2025-11-03 13:37:51] [DEBUG] Search parameter: empty
+[2025-11-03 13:37:51] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:37:51] [DEBUG] Query parameters: []
+[2025-11-03 13:37:51] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:37:51] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getProducts method called
+[2025-11-03 13:37:51] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:37:51] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:37:51] [DEBUG] Count parameters: []
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getCategories method called
+[2025-11-03 13:37:51] [DEBUG] Search parameter: empty
+[2025-11-03 13:37:51] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:37:51] [DEBUG] Query parameters: []
+[2025-11-03 13:37:51] [DEBUG] Total products found: 5
+[2025-11-03 13:37:51] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:37:51] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:37:51] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:37:51] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getProducts method called
+[2025-11-03 13:37:51] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:37:51] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:37:51] [DEBUG] Count parameters: []
+[2025-11-03 13:37:51] [DEBUG] Total products found: 5
+[2025-11-03 13:37:51] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:37:51] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:37:51] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:37:51] [INFO] Application initialized - Environment: development
+[2025-11-03 13:37:51] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:37:51] [INFO] JWT Secret: SET
+[2025-11-03 13:37:51] [DEBUG] Debug logging enabled
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:37:51] [DEBUG] Request Method: GET
+[2025-11-03 13:37:51] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:37:51] [DEBUG] Query String: 
+[2025-11-03 13:37:51] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:37:51] [DEBUG] Database connection established successfully
+[2025-11-03 13:37:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:37:51] [DEBUG] getProducts method called
+[2025-11-03 13:37:51] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:37:51] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:37:51] [DEBUG] Count parameters: []
+[2025-11-03 13:37:51] [DEBUG] Total products found: 5
+[2025-11-03 13:37:51] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:37:51] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:37:51] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:37:51] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 13:39:21] [INFO] Application initialized - Environment: development
+[2025-11-03 13:39:21] [INFO] Application initialized - Environment: development
+[2025-11-03 13:39:21] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:39:21] [INFO] Database: localhost/your_database_name
+[2025-11-03 13:39:21] [INFO] JWT Secret: SET
+[2025-11-03 13:39:21] [INFO] JWT Secret: SET
+[2025-11-03 13:39:21] [DEBUG] Debug logging enabled
+[2025-11-03 13:39:21] [DEBUG] Debug logging enabled
+[2025-11-03 13:39:21] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 13:39:21] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 13:39:21] [DEBUG] Request Method: GET
+[2025-11-03 13:39:21] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 13:39:21] [DEBUG] Request Method: GET
+[2025-11-03 13:39:21] [DEBUG] Query String: 
+[2025-11-03 13:39:21] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 13:39:21] [DEBUG] ProductsAPI constructor called
+[2025-11-03 13:39:21] [DEBUG] Query String: 
+[2025-11-03 13:39:21] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 13:39:21] [DEBUG] Database connection established successfully
+[2025-11-03 13:39:21] [DEBUG] Database connection established successfully
+[2025-11-03 13:39:21] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:39:21] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 13:39:21] [DEBUG] getProducts method called
+[2025-11-03 13:39:21] [DEBUG] getCategories method called
+[2025-11-03 13:39:21] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 13:39:21] [DEBUG] Search parameter: empty
+[2025-11-03 13:39:21] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 13:39:21] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 13:39:21] [DEBUG] Count parameters: []
+[2025-11-03 13:39:21] [DEBUG] Query parameters: []
+[2025-11-03 13:39:21] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 13:39:21] [DEBUG] Total products found: 5
+[2025-11-03 13:39:21] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 13:39:21] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 13:39:21] [DEBUG] Query parameters: [10,0]
+[2025-11-03 13:39:21] [DEBUG] Fetched 5 products successfully
+[2025-11-03 13:39:21] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 14:57:39] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:39] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 14:57:40] [DEBUG] ProductsAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] getProducts method called
+[2025-11-03 14:57:40] [DEBUG] getCategories method called
+[2025-11-03 14:57:40] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 14:57:40] [DEBUG] Search parameter: empty
+[2025-11-03 14:57:40] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 14:57:40] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 14:57:40] [DEBUG] Count parameters: []
+[2025-11-03 14:57:40] [DEBUG] Query parameters: []
+[2025-11-03 14:57:40] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 14:57:40] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 14:57:40] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Total products found: 5
+[2025-11-03 14:57:40] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 14:57:40] [DEBUG] Query parameters: [10,0]
+[2025-11-03 14:57:40] [DEBUG] Fetched 5 products successfully
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] getCategories method called
+[2025-11-03 14:57:40] [DEBUG] Search parameter: empty
+[2025-11-03 14:57:40] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 14:57:40] [DEBUG] Query parameters: []
+[2025-11-03 14:57:40] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 14:57:40] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 14:57:40] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] ProductsAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] getProducts method called
+[2025-11-03 14:57:40] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 14:57:40] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 14:57:40] [DEBUG] Count parameters: []
+[2025-11-03 14:57:40] [DEBUG] Total products found: 5
+[2025-11-03 14:57:40] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 14:57:40] [DEBUG] Query parameters: [10,0]
+[2025-11-03 14:57:40] [DEBUG] Fetched 5 products successfully
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 14:57:40] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] ProductsAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] getProducts method called
+[2025-11-03 14:57:40] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 14:57:40] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 14:57:40] [DEBUG] Count parameters: []
+[2025-11-03 14:57:40] [DEBUG] Total products found: 5
+[2025-11-03 14:57:40] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 14:57:40] [DEBUG] Query parameters: [10,0]
+[2025-11-03 14:57:40] [DEBUG] Fetched 5 products successfully
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 14:57:40] [INFO] Application initialized - Environment: development
+[2025-11-03 14:57:40] [INFO] Database: localhost/your_database_name
+[2025-11-03 14:57:40] [INFO] JWT Secret: SET
+[2025-11-03 14:57:40] [DEBUG] Debug logging enabled
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 14:57:40] [DEBUG] Request Method: GET
+[2025-11-03 14:57:40] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 14:57:40] [DEBUG] Query String: 
+[2025-11-03 14:57:40] [DEBUG] ProductsAPI constructor called
+[2025-11-03 14:57:40] [DEBUG] Database connection established successfully
+[2025-11-03 14:57:40] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 14:57:40] [DEBUG] getProducts method called
+[2025-11-03 14:57:40] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 14:57:40] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 14:57:40] [DEBUG] Count parameters: []
+[2025-11-03 14:57:40] [DEBUG] Total products found: 5
+[2025-11-03 14:57:40] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 14:57:40] [DEBUG] Query parameters: [10,0]
+[2025-11-03 14:57:40] [DEBUG] Fetched 5 products successfully
+[2025-11-03 14:57:40] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 15:11:09] [INFO] Application initialized - Environment: development
+[2025-11-03 15:11:09] [INFO] Database: localhost/your_database_name
+[2025-11-03 15:11:09] [INFO] JWT Secret: SET
+[2025-11-03 15:11:09] [DEBUG] Debug logging enabled
+[2025-11-03 15:11:09] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 15:11:09] [DEBUG] Request Method: GET
+[2025-11-03 15:11:09] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 15:11:09] [DEBUG] Query String: 
+[2025-11-03 15:11:09] [DEBUG] ProductsAPI constructor called
+[2025-11-03 15:11:09] [INFO] Application initialized - Environment: development
+[2025-11-03 15:11:09] [INFO] Database: localhost/your_database_name
+[2025-11-03 15:11:09] [INFO] JWT Secret: SET
+[2025-11-03 15:11:09] [DEBUG] Debug logging enabled
+[2025-11-03 15:11:09] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 15:11:09] [DEBUG] Request Method: GET
+[2025-11-03 15:11:09] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 15:11:09] [DEBUG] Query String: 
+[2025-11-03 15:11:09] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 15:11:09] [DEBUG] Database connection established successfully
+[2025-11-03 15:11:09] [DEBUG] Database connection established successfully
+[2025-11-03 15:11:09] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 15:11:09] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 15:11:09] [DEBUG] getCategories method called
+[2025-11-03 15:11:09] [DEBUG] getProducts method called
+[2025-11-03 15:11:09] [DEBUG] Search parameter: empty
+[2025-11-03 15:11:09] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 15:11:09] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 15:11:09] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 15:11:09] [DEBUG] Query parameters: []
+[2025-11-03 15:11:09] [DEBUG] Count parameters: []
+[2025-11-03 15:11:09] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 15:11:09] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 15:11:09] [DEBUG] Total products found: 5
+[2025-11-03 15:11:09] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 15:11:09] [DEBUG] Query parameters: [10,0]
+[2025-11-03 15:11:09] [DEBUG] Fetched 5 products successfully
+[2025-11-03 15:11:09] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 15:15:04] [INFO] Application initialized - Environment: development
+[2025-11-03 15:15:04] [INFO] Database: localhost/your_database_name
+[2025-11-03 15:15:04] [INFO] JWT Secret: SET
+[2025-11-03 15:15:04] [DEBUG] Debug logging enabled
+[2025-11-03 15:15:04] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-03 15:15:04] [DEBUG] Request Method: GET
+[2025-11-03 15:15:04] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-03 15:15:04] [DEBUG] Query String: 
+[2025-11-03 15:15:04] [DEBUG] ProductsAPI constructor called
+[2025-11-03 15:15:04] [DEBUG] Database connection established successfully
+[2025-11-03 15:15:04] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 15:15:04] [DEBUG] getProducts method called
+[2025-11-03 15:15:04] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-03 15:15:04] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-03 15:15:04] [DEBUG] Count parameters: []
+[2025-11-03 15:15:04] [INFO] Application initialized - Environment: development
+[2025-11-03 15:15:04] [INFO] Database: localhost/your_database_name
+[2025-11-03 15:15:04] [INFO] JWT Secret: SET
+[2025-11-03 15:15:04] [DEBUG] Debug logging enabled
+[2025-11-03 15:15:04] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-03 15:15:04] [DEBUG] Request Method: GET
+[2025-11-03 15:15:04] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-03 15:15:04] [DEBUG] Query String: 
+[2025-11-03 15:15:04] [DEBUG] CategoriesAPI constructor called
+[2025-11-03 15:15:04] [DEBUG] Database connection established successfully
+[2025-11-03 15:15:04] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-03 15:15:04] [DEBUG] getCategories method called
+[2025-11-03 15:15:04] [DEBUG] Search parameter: empty
+[2025-11-03 15:15:04] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-03 15:15:04] [DEBUG] Query parameters: []
+[2025-11-03 15:15:04] [DEBUG] Fetched 2 categories successfully
+[2025-11-03 15:15:04] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-03 15:15:04] [DEBUG] Total products found: 5
+[2025-11-03 15:15:04] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-03 15:15:04] [DEBUG] Query parameters: [10,0]
+[2025-11-03 15:15:04] [DEBUG] Fetched 5 products successfully
+[2025-11-03 15:15:04] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-03 15:49:27] [INFO] Application initialized - Environment: development
+[2025-11-03 15:49:27] [INFO] Database: localhost/your_database_name
+[2025-11-03 15:49:27] [INFO] JWT Secret: SET
+[2025-11-03 15:49:27] [DEBUG] Debug logging enabled
+[2025-11-03 15:49:28] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-03 15:49:28] [DEBUG] Request Method: GET
+[2025-11-03 15:49:28] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-03 15:49:28] [DEBUG] SettingsAPI constructor called
+[2025-11-03 15:49:28] [DEBUG] Database connection established successfully
+[2025-11-03 15:49:28] [DEBUG] Routing main request - Method: GET
+[2025-11-03 15:49:28] [DEBUG] getSettings method called
+[2025-11-03 15:49:28] [ERROR] Error in getSettings: User 'root' has exceeded the 'max_questions' resource (current value: 1000)
+[2025-11-03 15:49:28] [ERROR] Sending error response: User 'root' has exceeded the 'max_questions' resource (current value: 1000)
+[2025-11-03 15:49:28] [DEBUG] === SETTINGS API REQUEST COMPLETED ===

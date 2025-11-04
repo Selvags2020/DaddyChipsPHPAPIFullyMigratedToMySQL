@@ -159,16 +159,84 @@ class AppConfig {
     }
 
     // Simple logging method that can be used anywhere
-    public static function log($message, $level = 'INFO') {
-        if (!self::$LOG_ENABLED) {
-            return;
-        }
+   public static function log($message, $level = 'INFO') {
+    if (!self::$LOG_ENABLED) {
+        return;
+    }
 
-        $timestamp = date('Y-m-d H:i:s');
-        $logMessage = "[$timestamp] [$level] $message\n";
-        
+    // Check if the log level should be logged
+    if (!self::shouldLogLevel($level)) {
+        return;
+    }
+
+    $timestamp = date('Y-m-d H:i:s');
+    $logMessage = "[$timestamp] [$level] $message\n";
+    
+    // Generate daily log file path
+    $dailyLogPath = self::getDailyLogPath();
+    
+    // Write to log file
+    if (file_put_contents($dailyLogPath, $logMessage, FILE_APPEND | LOCK_EX) === false) {
+        // Fallback to original path if daily log fails
+        error_log("Failed to write to daily log: $dailyLogPath");
         file_put_contents(self::$LOG_FILE_PATH, $logMessage, FILE_APPEND | LOCK_EX);
     }
+}
+
+private static function getDailyLogPath() {
+    $dateSuffix = date('Y-m-d');
+    $originalPath = self::$LOG_FILE_PATH;
+    
+    $dir = dirname($originalPath);
+    $filename = pathinfo($originalPath, PATHINFO_FILENAME);
+    $extension = pathinfo($originalPath, PATHINFO_EXTENSION);
+    
+    $dailyFilename = $filename . '_' . $dateSuffix . ($extension ? '.' . $extension : '');
+    $dailyLogPath = $dir . '/' . $dailyFilename;
+    
+    // Ensure directory exists
+    self::ensureLogDirectory($dir);
+    
+    // Initialize daily log file if it doesn't exist
+    self::initializeDailyLog($dailyLogPath);
+    
+    return $dailyLogPath;
+}
+
+private static function ensureLogDirectory($dir) {
+    if (!is_dir($dir)) {
+        if (!mkdir($dir, 0755, true)) {
+            throw new Exception("Failed to create log directory: $dir");
+        }
+    }
+}
+
+private static function initializeDailyLog($logPath) {
+    if (!file_exists($logPath)) {
+        $header = "=== " . self::$APP_NAME . " LOG - " . date('Y-m-d') . " ===\n";
+        $header .= "=== Environment: " . self::$APP_ENV . " ===\n";
+        $header .= "=== Generated: " . date('Y-m-d H:i:s') . " ===\n";
+        $header .= "=== Log Level: " . self::$LOG_LEVEL . " ===\n";
+        $header .= "============================================\n\n";
+        
+        file_put_contents($logPath, $header, LOCK_EX);
+        
+        // Set appropriate permissions
+        chmod($logPath, 0644);
+    }
+}
+
+private static function shouldLogLevel($level) {
+    $levels = ['DEBUG' => 1, 'INFO' => 2, 'WARN' => 3, 'ERROR' => 4];
+    $currentLevel = strtoupper(self::$LOG_LEVEL);
+    $checkLevel = strtoupper($level);
+    
+    if (!isset($levels[$checkLevel]) || !isset($levels[$currentLevel])) {
+        return true; // Default to logging if level is unknown
+    }
+    
+    return $levels[$checkLevel] >= $levels[$currentLevel];
+}
 
     // Log debug messages (only in development)
     public static function debug($message) {

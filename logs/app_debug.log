@@ -1749,3 +1749,963 @@ Stack trace:
 [2025-11-02 04:10:21] [DEBUG] Query parameters: [10,0]
 [2025-11-02 04:10:21] [DEBUG] Fetched 5 products successfully
 [2025-11-02 04:10:21] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:16:37] === APPLICATION STARTED ===
+[2025-11-02 04:16:37] Environment: development
+[2025-11-02 04:16:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:37] ===========================
+[2025-11-02 04:16:37] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:37] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:37] [INFO] JWT Secret: SET
+[2025-11-02 04:16:37] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:37] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:16:37] [DEBUG] Request Method: GET
+[2025-11-02 04:16:37] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:16:37] [DEBUG] Query String: 
+[2025-11-02 04:16:37] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:16:37] === APPLICATION STARTED ===
+[2025-11-02 04:16:37] Environment: development
+[2025-11-02 04:16:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:37] ===========================
+[2025-11-02 04:16:37] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:37] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:37] [INFO] JWT Secret: SET
+[2025-11-02 04:16:37] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:37] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:16:37] [DEBUG] Request Method: GET
+[2025-11-02 04:16:37] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:16:37] [DEBUG] Query String: 
+[2025-11-02 04:16:37] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:16:37] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:37] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:37] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:37] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:37] [DEBUG] getProducts method called
+[2025-11-02 04:16:37] [DEBUG] getCategories method called
+[2025-11-02 04:16:37] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:16:37] [DEBUG] Search parameter: empty
+[2025-11-02 04:16:37] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:16:37] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:16:37] [DEBUG] Count parameters: []
+[2025-11-02 04:16:37] [DEBUG] Query parameters: []
+[2025-11-02 04:16:37] [DEBUG] Total products found: 5
+[2025-11-02 04:16:37] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:16:37] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:16:37] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:16:37] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:16:37] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:16:37] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:16:37] === APPLICATION STARTED ===
+[2025-11-02 04:16:37] Environment: development
+[2025-11-02 04:16:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:37] ===========================
+[2025-11-02 04:16:37] === APPLICATION STARTED ===
+[2025-11-02 04:16:37] Environment: development
+[2025-11-02 04:16:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:37] ===========================
+[2025-11-02 04:16:37] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:37] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:37] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:37] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:37] [INFO] JWT Secret: SET
+[2025-11-02 04:16:37] [INFO] JWT Secret: SET
+[2025-11-02 04:16:37] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:37] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:37] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:16:37] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:16:37] [DEBUG] Request Method: GET
+[2025-11-02 04:16:37] [DEBUG] Request Method: GET
+[2025-11-02 04:16:37] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:16:37] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:16:37] [DEBUG] Query String: 
+[2025-11-02 04:16:37] [DEBUG] Query String: 
+[2025-11-02 04:16:37] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:16:37] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:16:37] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:37] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:37] [DEBUG] getProducts method called
+[2025-11-02 04:16:37] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:16:37] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:16:37] [DEBUG] Count parameters: []
+[2025-11-02 04:16:37] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:37] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:37] [DEBUG] getCategories method called
+[2025-11-02 04:16:37] [DEBUG] Search parameter: empty
+[2025-11-02 04:16:37] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:16:37] [DEBUG] Query parameters: []
+[2025-11-02 04:16:37] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:16:37] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:16:38] [DEBUG] Total products found: 5
+[2025-11-02 04:16:38] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:16:38] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:16:38] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:16:38] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:16:38] === APPLICATION STARTED ===
+[2025-11-02 04:16:38] Environment: development
+[2025-11-02 04:16:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:38] ===========================
+[2025-11-02 04:16:38] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:38] [INFO] JWT Secret: SET
+[2025-11-02 04:16:38] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:38] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:16:38] [DEBUG] Request Method: GET
+[2025-11-02 04:16:38] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:16:38] [DEBUG] Query String: 
+[2025-11-02 04:16:38] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:16:38] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:38] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:38] [DEBUG] getProducts method called
+[2025-11-02 04:16:38] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:16:38] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:16:38] [DEBUG] Count parameters: []
+[2025-11-02 04:16:38] [DEBUG] Total products found: 5
+[2025-11-02 04:16:38] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:16:38] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:16:38] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:16:38] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:16:38] === APPLICATION STARTED ===
+[2025-11-02 04:16:38] Environment: development
+[2025-11-02 04:16:38] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:16:38] ===========================
+[2025-11-02 04:16:38] [INFO] Application initialized - Environment: development
+[2025-11-02 04:16:38] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:16:38] [INFO] JWT Secret: SET
+[2025-11-02 04:16:38] [DEBUG] Debug logging enabled
+[2025-11-02 04:16:38] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:16:38] [DEBUG] Request Method: GET
+[2025-11-02 04:16:38] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:16:38] [DEBUG] Query String: 
+[2025-11-02 04:16:38] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:16:38] [DEBUG] Database connection established successfully
+[2025-11-02 04:16:38] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:16:38] [DEBUG] getProducts method called
+[2025-11-02 04:16:38] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:16:38] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:16:38] [DEBUG] Count parameters: []
+[2025-11-02 04:16:38] [DEBUG] Total products found: 5
+[2025-11-02 04:16:38] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:16:38] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:16:38] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:16:38] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:17:27] === APPLICATION STARTED ===
+[2025-11-02 04:17:27] Environment: development
+[2025-11-02 04:17:27] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:17:27] ===========================
+[2025-11-02 04:17:27] [INFO] Application initialized - Environment: development
+[2025-11-02 04:17:27] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:17:27] === APPLICATION STARTED ===
+[2025-11-02 04:17:27] Environment: development
+[2025-11-02 04:17:27] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:17:27] ===========================
+[2025-11-02 04:17:27] [INFO] JWT Secret: SET
+[2025-11-02 04:17:27] [INFO] Application initialized - Environment: development
+[2025-11-02 04:17:27] [DEBUG] Debug logging enabled
+[2025-11-02 04:17:27] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:17:27] [INFO] JWT Secret: SET
+[2025-11-02 04:17:27] [DEBUG] Debug logging enabled
+[2025-11-02 04:17:27] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:17:27] === APPLICATION STARTED ===
+[2025-11-02 04:17:27] Environment: development
+[2025-11-02 04:17:27] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:17:27] ===========================
+[2025-11-02 04:17:27] [INFO] Application initialized - Environment: development
+[2025-11-02 04:17:27] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:17:27] [INFO] JWT Secret: SET
+[2025-11-02 04:17:27] [DEBUG] Debug logging enabled
+[2025-11-02 04:17:27] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:17:27] [DEBUG] Request Method: GET
+[2025-11-02 04:17:27] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:17:27] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:17:27] [DEBUG] Database connection established successfully
+[2025-11-02 04:17:27] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:17:27] [DEBUG] getSettings method called
+[2025-11-02 04:17:27] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:17:27] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:17:27] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:17:27] === APPLICATION STARTED ===
+[2025-11-02 04:17:27] Environment: development
+[2025-11-02 04:17:27] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:17:27] ===========================
+[2025-11-02 04:17:27] [INFO] Application initialized - Environment: development
+[2025-11-02 04:17:27] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:17:27] [INFO] JWT Secret: SET
+[2025-11-02 04:17:27] [DEBUG] Debug logging enabled
+[2025-11-02 04:17:27] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:17:27] [DEBUG] Request Method: GET
+[2025-11-02 04:17:27] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:17:27] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:17:27] [DEBUG] Database connection established successfully
+[2025-11-02 04:17:27] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:17:27] [DEBUG] getSettings method called
+[2025-11-02 04:17:27] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:17:27] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:25:13] === APPLICATION STARTED ===
+[2025-11-02 04:25:13] Environment: development
+[2025-11-02 04:25:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:13] ===========================
+[2025-11-02 04:25:13] === APPLICATION STARTED ===
+[2025-11-02 04:25:13] Environment: development
+[2025-11-02 04:25:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:13] ===========================
+[2025-11-02 04:25:13] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:13] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:13] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:13] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:13] [INFO] JWT Secret: SET
+[2025-11-02 04:25:13] [INFO] JWT Secret: SET
+[2025-11-02 04:25:13] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:13] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:14] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:25:14] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:25:14] [DEBUG] Request Method: GET
+[2025-11-02 04:25:14] [DEBUG] Request Method: GET
+[2025-11-02 04:25:14] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:25:14] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:25:14] [DEBUG] Query String: 
+[2025-11-02 04:25:14] [DEBUG] Query String: 
+[2025-11-02 04:25:14] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:25:14] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:25:14] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:14] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:14] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:14] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:14] [DEBUG] getCategories method called
+[2025-11-02 04:25:14] [DEBUG] getProducts method called
+[2025-11-02 04:25:14] [DEBUG] Search parameter: empty
+[2025-11-02 04:25:14] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:25:14] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:25:14] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:25:14] [DEBUG] Query parameters: []
+[2025-11-02 04:25:14] [DEBUG] Count parameters: []
+[2025-11-02 04:25:14] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:25:14] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:25:14] === APPLICATION STARTED ===
+[2025-11-02 04:25:14] Environment: development
+[2025-11-02 04:25:14] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:14] ===========================
+[2025-11-02 04:25:14] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:14] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:14] [INFO] JWT Secret: SET
+[2025-11-02 04:25:14] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:14] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:25:14] [DEBUG] Request Method: GET
+[2025-11-02 04:25:14] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:25:14] [DEBUG] Query String: 
+[2025-11-02 04:25:14] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:25:15] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:15] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:15] [DEBUG] getCategories method called
+[2025-11-02 04:25:15] [DEBUG] Search parameter: empty
+[2025-11-02 04:25:15] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:25:15] [DEBUG] Query parameters: []
+[2025-11-02 04:25:15] [DEBUG] Total products found: 5
+[2025-11-02 04:25:15] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:25:15] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:25:15] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:25:15] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:25:15] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:25:15] === APPLICATION STARTED ===
+[2025-11-02 04:25:15] Environment: development
+[2025-11-02 04:25:15] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:15] ===========================
+[2025-11-02 04:25:15] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:15] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:15] [INFO] JWT Secret: SET
+[2025-11-02 04:25:15] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:25:15] [DEBUG] Request Method: GET
+[2025-11-02 04:25:15] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:25:15] [DEBUG] Query String: 
+[2025-11-02 04:25:15] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:25:15] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:15] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:15] [DEBUG] getProducts method called
+[2025-11-02 04:25:15] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:25:15] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:25:15] [DEBUG] Count parameters: []
+[2025-11-02 04:25:15] [DEBUG] Total products found: 5
+[2025-11-02 04:25:15] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:25:15] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:25:15] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:25:15] === APPLICATION STARTED ===
+[2025-11-02 04:25:15] Environment: development
+[2025-11-02 04:25:15] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:15] ===========================
+[2025-11-02 04:25:15] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:15] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:15] [INFO] JWT Secret: SET
+[2025-11-02 04:25:15] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:25:15] [DEBUG] Request Method: GET
+[2025-11-02 04:25:15] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:25:15] [DEBUG] Query String: 
+[2025-11-02 04:25:15] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:25:15] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:15] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:15] [DEBUG] getProducts method called
+[2025-11-02 04:25:15] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:25:15] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:25:15] [DEBUG] Count parameters: []
+[2025-11-02 04:25:15] [DEBUG] Total products found: 5
+[2025-11-02 04:25:15] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:25:15] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:25:15] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:25:15] === APPLICATION STARTED ===
+[2025-11-02 04:25:15] Environment: development
+[2025-11-02 04:25:15] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:15] ===========================
+[2025-11-02 04:25:15] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:15] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:15] [INFO] JWT Secret: SET
+[2025-11-02 04:25:15] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:15] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:25:15] [DEBUG] Request Method: GET
+[2025-11-02 04:25:15] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:25:15] [DEBUG] Query String: 
+[2025-11-02 04:25:15] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:25:15] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:15] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:25:15] [DEBUG] getProducts method called
+[2025-11-02 04:25:15] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:25:15] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:25:15] [DEBUG] Count parameters: []
+[2025-11-02 04:25:15] [DEBUG] Total products found: 5
+[2025-11-02 04:25:15] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:25:15] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:25:16] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:25:16] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:25:46] === APPLICATION STARTED ===
+[2025-11-02 04:25:46] Environment: development
+[2025-11-02 04:25:46] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:46] ===========================
+[2025-11-02 04:25:46] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:46] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:46] [INFO] JWT Secret: SET
+[2025-11-02 04:25:46] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:46] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:25:46] === APPLICATION STARTED ===
+[2025-11-02 04:25:46] Environment: development
+[2025-11-02 04:25:46] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:46] ===========================
+[2025-11-02 04:25:46] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:46] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:46] [INFO] JWT Secret: SET
+[2025-11-02 04:25:46] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:46] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:25:46] [DEBUG] Request Method: GET
+[2025-11-02 04:25:46] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:25:46] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:25:46] === APPLICATION STARTED ===
+[2025-11-02 04:25:46] Environment: development
+[2025-11-02 04:25:46] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:46] ===========================
+[2025-11-02 04:25:46] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:46] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:46] [INFO] JWT Secret: SET
+[2025-11-02 04:25:46] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:46] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:25:47] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:47] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:25:47] [DEBUG] getSettings method called
+[2025-11-02 04:25:47] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:25:47] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:25:47] === APPLICATION STARTED ===
+[2025-11-02 04:25:47] Environment: development
+[2025-11-02 04:25:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:25:47] ===========================
+[2025-11-02 04:25:47] [INFO] Application initialized - Environment: development
+[2025-11-02 04:25:47] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:25:47] [INFO] JWT Secret: SET
+[2025-11-02 04:25:47] [DEBUG] Debug logging enabled
+[2025-11-02 04:25:47] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:25:47] [DEBUG] Request Method: GET
+[2025-11-02 04:25:47] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:25:47] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:25:47] [DEBUG] Database connection established successfully
+[2025-11-02 04:25:47] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:25:47] [DEBUG] getSettings method called
+[2025-11-02 04:25:47] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:25:47] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:29:28] === APPLICATION STARTED ===
+[2025-11-02 04:29:28] Environment: development
+[2025-11-02 04:29:28] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:29:28] ===========================
+[2025-11-02 04:29:28] [INFO] Application initialized - Environment: development
+[2025-11-02 04:29:28] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:29:28] [INFO] JWT Secret: SET
+[2025-11-02 04:29:28] [DEBUG] Debug logging enabled
+[2025-11-02 04:29:28] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:29:28] === APPLICATION STARTED ===
+[2025-11-02 04:29:28] Environment: development
+[2025-11-02 04:29:28] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:29:28] ===========================
+[2025-11-02 04:29:28] [INFO] Application initialized - Environment: development
+[2025-11-02 04:29:28] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:29:28] [INFO] JWT Secret: SET
+[2025-11-02 04:29:28] [DEBUG] Debug logging enabled
+[2025-11-02 04:29:28] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:29:28] [DEBUG] Request Method: GET
+[2025-11-02 04:29:28] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:29:28] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:29:29] === APPLICATION STARTED ===
+[2025-11-02 04:29:29] Environment: development
+[2025-11-02 04:29:29] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:29:29] ===========================
+[2025-11-02 04:29:29] [INFO] Application initialized - Environment: development
+[2025-11-02 04:29:29] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:29:29] [INFO] JWT Secret: SET
+[2025-11-02 04:29:29] [DEBUG] Debug logging enabled
+[2025-11-02 04:29:29] [DEBUG] OPTIONS preflight request handled for settings - origin: http://localhost:3000
+[2025-11-02 04:29:29] [DEBUG] Database connection established successfully
+[2025-11-02 04:29:29] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:29:29] [DEBUG] getSettings method called
+[2025-11-02 04:29:29] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:29:29] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:29:29] === APPLICATION STARTED ===
+[2025-11-02 04:29:29] Environment: development
+[2025-11-02 04:29:29] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:29:29] ===========================
+[2025-11-02 04:29:29] [INFO] Application initialized - Environment: development
+[2025-11-02 04:29:29] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:29:29] [INFO] JWT Secret: SET
+[2025-11-02 04:29:29] [DEBUG] Debug logging enabled
+[2025-11-02 04:29:29] [DEBUG] === SETTINGS API REQUEST STARTED ===
+[2025-11-02 04:29:29] [DEBUG] Request Method: GET
+[2025-11-02 04:29:29] [DEBUG] Request URI: /DaddyChipsAPI/settings.php
+[2025-11-02 04:29:29] [DEBUG] SettingsAPI constructor called
+[2025-11-02 04:29:29] [DEBUG] Database connection established successfully
+[2025-11-02 04:29:29] [DEBUG] Routing main request - Method: GET
+[2025-11-02 04:29:29] [DEBUG] getSettings method called
+[2025-11-02 04:29:29] [DEBUG] Fetched 1 settings successfully
+[2025-11-02 04:29:29] [DEBUG] === SETTINGS API REQUEST COMPLETED ===
+[2025-11-02 04:30:51] === APPLICATION STARTED ===
+[2025-11-02 04:30:51] Environment: development
+[2025-11-02 04:30:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:51] ===========================
+[2025-11-02 04:30:51] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:51] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:51] [INFO] JWT Secret: SET
+[2025-11-02 04:30:51] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:51] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:30:51] [DEBUG] Request Method: GET
+[2025-11-02 04:30:51] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:30:51] [DEBUG] Query String: 
+[2025-11-02 04:30:51] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:30:51] === APPLICATION STARTED ===
+[2025-11-02 04:30:51] Environment: development
+[2025-11-02 04:30:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:51] ===========================
+[2025-11-02 04:30:51] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:51] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:51] [INFO] JWT Secret: SET
+[2025-11-02 04:30:51] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:51] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:30:51] [DEBUG] Request Method: GET
+[2025-11-02 04:30:51] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:30:51] [DEBUG] Query String: 
+[2025-11-02 04:30:51] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:30:51] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:51] [DEBUG] getCategories method called
+[2025-11-02 04:30:51] [DEBUG] Search parameter: empty
+[2025-11-02 04:30:51] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:30:51] [DEBUG] Query parameters: []
+[2025-11-02 04:30:51] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:51] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:51] [DEBUG] getProducts method called
+[2025-11-02 04:30:51] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:30:51] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:30:51] [DEBUG] Count parameters: []
+[2025-11-02 04:30:52] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:30:52] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:30:52] === APPLICATION STARTED ===
+[2025-11-02 04:30:52] Environment: development
+[2025-11-02 04:30:52] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:52] ===========================
+[2025-11-02 04:30:52] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:52] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:52] [INFO] JWT Secret: SET
+[2025-11-02 04:30:52] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:52] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:30:52] [DEBUG] Request Method: GET
+[2025-11-02 04:30:52] [DEBUG] Request URI: /DaddyChipsAPI//categories.php
+[2025-11-02 04:30:52] [DEBUG] Query String: 
+[2025-11-02 04:30:52] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:30:52] [DEBUG] Total products found: 5
+[2025-11-02 04:30:52] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:30:52] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:30:52] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:52] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:52] [DEBUG] getCategories method called
+[2025-11-02 04:30:52] [DEBUG] Search parameter: empty
+[2025-11-02 04:30:52] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:30:52] [DEBUG] Query parameters: []
+[2025-11-02 04:30:52] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:30:52] === APPLICATION STARTED ===
+[2025-11-02 04:30:52] Environment: development
+[2025-11-02 04:30:52] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:52] ===========================
+[2025-11-02 04:30:52] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:52] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:52] [INFO] JWT Secret: SET
+[2025-11-02 04:30:52] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:30:52] [DEBUG] Request Method: GET
+[2025-11-02 04:30:52] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:30:52] [DEBUG] Query String: 
+[2025-11-02 04:30:52] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:30:52] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:30:52] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:30:52] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:52] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:52] [DEBUG] getProducts method called
+[2025-11-02 04:30:52] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:30:52] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:30:52] [DEBUG] Count parameters: []
+[2025-11-02 04:30:52] [DEBUG] Total products found: 5
+[2025-11-02 04:30:52] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:30:52] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:30:52] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:30:52] === APPLICATION STARTED ===
+[2025-11-02 04:30:52] Environment: development
+[2025-11-02 04:30:52] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:52] ===========================
+[2025-11-02 04:30:52] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:52] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:52] [INFO] JWT Secret: SET
+[2025-11-02 04:30:52] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:30:52] [DEBUG] Request Method: GET
+[2025-11-02 04:30:52] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:30:52] [DEBUG] Query String: 
+[2025-11-02 04:30:52] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:30:52] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:52] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:52] [DEBUG] getProducts method called
+[2025-11-02 04:30:52] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:30:52] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:30:52] [DEBUG] Count parameters: []
+[2025-11-02 04:30:52] [DEBUG] Total products found: 5
+[2025-11-02 04:30:52] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:30:52] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:30:52] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:30:52] === APPLICATION STARTED ===
+[2025-11-02 04:30:52] Environment: development
+[2025-11-02 04:30:52] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:30:52] ===========================
+[2025-11-02 04:30:52] [INFO] Application initialized - Environment: development
+[2025-11-02 04:30:52] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:30:52] [INFO] JWT Secret: SET
+[2025-11-02 04:30:52] [DEBUG] Debug logging enabled
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST STARTED ===
+[2025-11-02 04:30:52] [DEBUG] Request Method: GET
+[2025-11-02 04:30:52] [DEBUG] Request URI: /DaddyChipsAPI//products.php
+[2025-11-02 04:30:52] [DEBUG] Query String: 
+[2025-11-02 04:30:52] [DEBUG] ProductsAPI constructor called
+[2025-11-02 04:30:52] [DEBUG] Database connection established successfully
+[2025-11-02 04:30:52] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:30:52] [DEBUG] getProducts method called
+[2025-11-02 04:30:52] [DEBUG] Pagination - Page: 1, Limit: 10, Search: , Category: 
+[2025-11-02 04:30:52] [DEBUG] Executing count query: SELECT COUNT(*) as total FROM products p LEFT JOIN categories c ON p.category_id = c.category_id WHERE 1=1
+[2025-11-02 04:30:52] [DEBUG] Count parameters: []
+[2025-11-02 04:30:52] [DEBUG] Total products found: 5
+[2025-11-02 04:30:52] [DEBUG] Executing main query: SELECT p.*, c.category_name 
+                      FROM products p 
+                      LEFT JOIN categories c ON p.category_id = c.category_id 
+                      WHERE 1=1 ORDER BY p.created_at DESC LIMIT ? OFFSET ?
+[2025-11-02 04:30:52] [DEBUG] Query parameters: [10,0]
+[2025-11-02 04:30:52] [DEBUG] Fetched 5 products successfully
+[2025-11-02 04:30:52] [DEBUG] === PRODUCTS API REQUEST COMPLETED ===
+[2025-11-02 04:31:04] === APPLICATION STARTED ===
+[2025-11-02 04:31:04] Environment: development
+[2025-11-02 04:31:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:31:04] ===========================
+[2025-11-02 04:31:04] [INFO] Application initialized - Environment: development
+[2025-11-02 04:31:04] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:31:04] [INFO] JWT Secret: SET
+[2025-11-02 04:31:04] [DEBUG] Debug logging enabled
+[2025-11-02 04:31:04] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 04:31:04] === APPLICATION STARTED ===
+[2025-11-02 04:31:04] Environment: development
+[2025-11-02 04:31:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:31:04] ===========================
+[2025-11-02 04:31:04] [INFO] Application initialized - Environment: development
+[2025-11-02 04:31:04] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:31:04] [INFO] JWT Secret: SET
+[2025-11-02 04:31:04] [DEBUG] Debug logging enabled
+[2025-11-02 04:31:04] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:31:04] [DEBUG] Request Method: GET
+[2025-11-02 04:31:04] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 04:31:04] [DEBUG] Query String: 
+[2025-11-02 04:31:04] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:31:04] === APPLICATION STARTED ===
+[2025-11-02 04:31:04] Environment: development
+[2025-11-02 04:31:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:31:04] ===========================
+[2025-11-02 04:31:04] [INFO] Application initialized - Environment: development
+[2025-11-02 04:31:04] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:31:04] [INFO] JWT Secret: SET
+[2025-11-02 04:31:04] [DEBUG] Debug logging enabled
+[2025-11-02 04:31:04] [DEBUG] OPTIONS preflight request handled for origin: http://localhost:3000
+[2025-11-02 04:31:04] [DEBUG] Database connection established successfully
+[2025-11-02 04:31:04] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:31:04] [DEBUG] getCategories method called
+[2025-11-02 04:31:04] [DEBUG] Search parameter: empty
+[2025-11-02 04:31:04] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:31:04] [DEBUG] Query parameters: []
+[2025-11-02 04:31:04] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:31:04] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:31:04] === APPLICATION STARTED ===
+[2025-11-02 04:31:04] Environment: development
+[2025-11-02 04:31:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:31:04] ===========================
+[2025-11-02 04:31:04] [INFO] Application initialized - Environment: development
+[2025-11-02 04:31:04] [INFO] Database: localhost/your_database_name
+[2025-11-02 04:31:04] [INFO] JWT Secret: SET
+[2025-11-02 04:31:04] [DEBUG] Debug logging enabled
+[2025-11-02 04:31:04] [DEBUG] === CATEGORIES API REQUEST STARTED ===
+[2025-11-02 04:31:04] [DEBUG] Request Method: GET
+[2025-11-02 04:31:04] [DEBUG] Request URI: /DaddyChipsAPI/categories.php
+[2025-11-02 04:31:04] [DEBUG] Query String: 
+[2025-11-02 04:31:04] [DEBUG] CategoriesAPI constructor called
+[2025-11-02 04:31:04] [DEBUG] Database connection established successfully
+[2025-11-02 04:31:04] [DEBUG] Routing main request - Method: GET, ID: none
+[2025-11-02 04:31:04] [DEBUG] getCategories method called
+[2025-11-02 04:31:04] [DEBUG] Search parameter: empty
+[2025-11-02 04:31:04] [DEBUG] Executing query: SELECT category_id, category_name, img_url, is_active, created_at FROM categories WHERE 1=1 ORDER BY created_at DESC
+[2025-11-02 04:31:04] [DEBUG] Query parameters: []
+[2025-11-02 04:31:04] [DEBUG] Fetched 2 categories successfully
+[2025-11-02 04:31:04] [DEBUG] === CATEGORIES API REQUEST COMPLETED ===
+[2025-11-02 04:38:34] === APPLICATION STARTED ===
+[2025-11-02 04:38:34] Environment: development
+[2025-11-02 04:38:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:34] ===========================
+[2025-11-02 04:38:34] === APPLICATION STARTED ===
+[2025-11-02 04:38:34] Environment: development
+[2025-11-02 04:38:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:34] ===========================
+[2025-11-02 04:38:35] === APPLICATION STARTED ===
+[2025-11-02 04:38:35] Environment: development
+[2025-11-02 04:38:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:35] ===========================
+[2025-11-02 04:38:35] === APPLICATION STARTED ===
+[2025-11-02 04:38:35] Environment: development
+[2025-11-02 04:38:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:35] ===========================
+[2025-11-02 04:38:35] === APPLICATION STARTED ===
+[2025-11-02 04:38:35] Environment: development
+[2025-11-02 04:38:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:35] ===========================
+[2025-11-02 04:38:35] === APPLICATION STARTED ===
+[2025-11-02 04:38:35] Environment: development
+[2025-11-02 04:38:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:35] ===========================
+[2025-11-02 04:38:54] === APPLICATION STARTED ===
+[2025-11-02 04:38:54] Environment: development
+[2025-11-02 04:38:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:54] ===========================
+[2025-11-02 04:38:54] === APPLICATION STARTED ===
+[2025-11-02 04:38:54] Environment: development
+[2025-11-02 04:38:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:54] ===========================
+[2025-11-02 04:38:54] === APPLICATION STARTED ===
+[2025-11-02 04:38:54] Environment: development
+[2025-11-02 04:38:54] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:38:54] ===========================
+[2025-11-02 04:40:47] === APPLICATION STARTED ===
+[2025-11-02 04:40:47] Environment: development
+[2025-11-02 04:40:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:40:47] ===========================
+[2025-11-02 04:40:47] === APPLICATION STARTED ===
+[2025-11-02 04:40:47] Environment: development
+[2025-11-02 04:40:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:40:47] ===========================
+[2025-11-02 04:42:47] === APPLICATION STARTED ===
+[2025-11-02 04:42:47] Environment: development
+[2025-11-02 04:42:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:42:47] ===========================
+[2025-11-02 04:42:47] === APPLICATION STARTED ===
+[2025-11-02 04:42:47] Environment: development
+[2025-11-02 04:42:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:42:47] ===========================
+[2025-11-02 04:42:47] === APPLICATION STARTED ===
+[2025-11-02 04:42:47] Environment: development
+[2025-11-02 04:42:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:42:47] ===========================
+[2025-11-02 04:42:47] === APPLICATION STARTED ===
+[2025-11-02 04:42:47] Environment: development
+[2025-11-02 04:42:47] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:42:47] ===========================
+[2025-11-02 04:42:48] === APPLICATION STARTED ===
+[2025-11-02 04:42:48] Environment: development
+[2025-11-02 04:42:48] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 04:42:48] ===========================
+[2025-11-02 13:10:37] === APPLICATION STARTED ===
+[2025-11-02 13:10:37] Environment: development
+[2025-11-02 13:10:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:37] ===========================
+[2025-11-02 13:10:37] === APPLICATION STARTED ===
+[2025-11-02 13:10:37] Environment: development
+[2025-11-02 13:10:37] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:37] ===========================
+[2025-11-02 13:10:41] === APPLICATION STARTED ===
+[2025-11-02 13:10:41] Environment: development
+[2025-11-02 13:10:41] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:41] ===========================
+[2025-11-02 13:10:41] === APPLICATION STARTED ===
+[2025-11-02 13:10:41] Environment: development
+[2025-11-02 13:10:41] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:41] ===========================
+[2025-11-02 13:10:42] === APPLICATION STARTED ===
+[2025-11-02 13:10:42] Environment: development
+[2025-11-02 13:10:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:42] ===========================
+[2025-11-02 13:10:42] === APPLICATION STARTED ===
+[2025-11-02 13:10:42] Environment: development
+[2025-11-02 13:10:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:10:42] ===========================
+[2025-11-02 13:11:11] === APPLICATION STARTED ===
+[2025-11-02 13:11:11] Environment: development
+[2025-11-02 13:11:11] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:11:11] ===========================
+[2025-11-02 13:11:13] === APPLICATION STARTED ===
+[2025-11-02 13:11:13] Environment: development
+[2025-11-02 13:11:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:11:13] ===========================
+[2025-11-02 13:11:13] === APPLICATION STARTED ===
+[2025-11-02 13:11:13] Environment: development
+[2025-11-02 13:11:13] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:11:13] ===========================
+[2025-11-02 13:15:52] === APPLICATION STARTED ===
+[2025-11-02 13:15:52] Environment: development
+[2025-11-02 13:15:52] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:15:52] ===========================
+[2025-11-02 13:15:53] === APPLICATION STARTED ===
+[2025-11-02 13:15:53] Environment: development
+[2025-11-02 13:15:53] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:15:53] ===========================
+[2025-11-02 13:16:09] === APPLICATION STARTED ===
+[2025-11-02 13:16:09] Environment: development
+[2025-11-02 13:16:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:16:09] ===========================
+[2025-11-02 13:16:09] === APPLICATION STARTED ===
+[2025-11-02 13:16:09] Environment: development
+[2025-11-02 13:16:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:16:09] ===========================
+[2025-11-02 13:16:09] === APPLICATION STARTED ===
+[2025-11-02 13:16:09] Environment: development
+[2025-11-02 13:16:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:16:09] ===========================
+[02-Nov-2025 13:16:09 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in D:\Xampp\htdocs\DaddyChipsAPI\orders.php:369
+Stack trace:
+#0 D:\Xampp\htdocs\DaddyChipsAPI\orders.php(557): OrdersAPI->createOrder()
+#1 {main}
+  thrown in D:\Xampp\htdocs\DaddyChipsAPI\orders.php on line 369
+[2025-11-02 13:22:49] === APPLICATION STARTED ===
+[2025-11-02 13:22:49] Environment: development
+[2025-11-02 13:22:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:22:49] ===========================
+[2025-11-02 13:22:50] === APPLICATION STARTED ===
+[2025-11-02 13:22:50] Environment: development
+[2025-11-02 13:22:50] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:22:50] ===========================
+[2025-11-02 13:23:05] === APPLICATION STARTED ===
+[2025-11-02 13:23:05] Environment: development
+[2025-11-02 13:23:05] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:23:05] ===========================
+[2025-11-02 13:23:05] === APPLICATION STARTED ===
+[2025-11-02 13:23:05] Environment: development
+[2025-11-02 13:23:05] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:23:05] ===========================
+[2025-11-02 13:23:05] === APPLICATION STARTED ===
+[2025-11-02 13:23:05] Environment: development
+[2025-11-02 13:23:05] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-02 13:23:05] ===========================
+[02-Nov-2025 13:23:06 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in D:\Xampp\htdocs\DaddyChipsAPI\orders.php:427
+Stack trace:
+#0 D:\Xampp\htdocs\DaddyChipsAPI\orders.php(648): OrdersAPI->createOrder()
+#1 {main}
+  thrown in D:\Xampp\htdocs\DaddyChipsAPI\orders.php on line 427
+[2025-11-03 13:25:41] === APPLICATION STARTED ===
+[2025-11-03 13:25:41] Environment: development
+[2025-11-03 13:25:41] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:41] ===========================
+[2025-11-03 13:25:41] === APPLICATION STARTED ===
+[2025-11-03 13:25:41] Environment: development
+[2025-11-03 13:25:41] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:41] ===========================
+[2025-11-03 13:25:42] === APPLICATION STARTED ===
+[2025-11-03 13:25:42] Environment: development
+[2025-11-03 13:25:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:42] ===========================
+[2025-11-03 13:25:42] === APPLICATION STARTED ===
+[2025-11-03 13:25:42] Environment: development
+[2025-11-03 13:25:42] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:42] ===========================
+[2025-11-03 13:25:43] === APPLICATION STARTED ===
+[2025-11-03 13:25:43] Environment: development
+[2025-11-03 13:25:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:43] ===========================
+[2025-11-03 13:25:43] === APPLICATION STARTED ===
+[2025-11-03 13:25:43] Environment: development
+[2025-11-03 13:25:43] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:25:43] ===========================
+[2025-11-03 13:30:34] === APPLICATION STARTED ===
+[2025-11-03 13:30:34] Environment: development
+[2025-11-03 13:30:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:34] ===========================
+[2025-11-03 13:30:34] === APPLICATION STARTED ===
+[2025-11-03 13:30:34] Environment: development
+[2025-11-03 13:30:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:34] ===========================
+[2025-11-03 13:30:34] === APPLICATION STARTED ===
+[2025-11-03 13:30:34] Environment: development
+[2025-11-03 13:30:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:34] ===========================
+[2025-11-03 13:30:34] === APPLICATION STARTED ===
+[2025-11-03 13:30:34] Environment: development
+[2025-11-03 13:30:34] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:34] ===========================
+[2025-11-03 13:30:35] === APPLICATION STARTED ===
+[2025-11-03 13:30:35] Environment: development
+[2025-11-03 13:30:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:35] ===========================
+[2025-11-03 13:30:35] === APPLICATION STARTED ===
+[2025-11-03 13:30:35] Environment: development
+[2025-11-03 13:30:35] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:30:35] ===========================
+[2025-11-03 13:35:49] === APPLICATION STARTED ===
+[2025-11-03 13:35:49] Environment: development
+[2025-11-03 13:35:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:35:49] ===========================
+[2025-11-03 13:35:49] === APPLICATION STARTED ===
+[2025-11-03 13:35:49] Environment: development
+[2025-11-03 13:35:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:35:49] ===========================
+[2025-11-03 13:35:49] === APPLICATION STARTED ===
+[2025-11-03 13:35:49] Environment: development
+[2025-11-03 13:35:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:35:49] ===========================
+[2025-11-03 13:35:49] === APPLICATION STARTED ===
+[2025-11-03 13:35:49] Environment: development
+[2025-11-03 13:35:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:35:49] ===========================
+[2025-11-03 13:35:49] === APPLICATION STARTED ===
+[2025-11-03 13:35:49] Environment: development
+[2025-11-03 13:35:49] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:35:49] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:37:51] === APPLICATION STARTED ===
+[2025-11-03 13:37:51] Environment: development
+[2025-11-03 13:37:51] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:37:51] ===========================
+[2025-11-03 13:39:21] === APPLICATION STARTED ===
+[2025-11-03 13:39:21] Environment: development
+[2025-11-03 13:39:21] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:39:21] ===========================
+[2025-11-03 13:39:21] === APPLICATION STARTED ===
+[2025-11-03 13:39:21] Environment: development
+[2025-11-03 13:39:21] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 13:39:21] ===========================
+[2025-11-03 14:57:39] === APPLICATION STARTED ===
+[2025-11-03 14:57:39] Environment: development
+[2025-11-03 14:57:39] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:39] ===========================
+[2025-11-03 14:57:39] === APPLICATION STARTED ===
+[2025-11-03 14:57:39] Environment: development
+[2025-11-03 14:57:39] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:39] ===========================
+[2025-11-03 14:57:40] === APPLICATION STARTED ===
+[2025-11-03 14:57:40] Environment: development
+[2025-11-03 14:57:40] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:40] ===========================
+[2025-11-03 14:57:40] === APPLICATION STARTED ===
+[2025-11-03 14:57:40] Environment: development
+[2025-11-03 14:57:40] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:40] ===========================
+[2025-11-03 14:57:40] === APPLICATION STARTED ===
+[2025-11-03 14:57:40] Environment: development
+[2025-11-03 14:57:40] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:40] ===========================
+[2025-11-03 14:57:40] === APPLICATION STARTED ===
+[2025-11-03 14:57:40] Environment: development
+[2025-11-03 14:57:40] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 14:57:40] ===========================
+[2025-11-03 15:11:09] === APPLICATION STARTED ===
+[2025-11-03 15:11:09] Environment: development
+[2025-11-03 15:11:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 15:11:09] ===========================
+[2025-11-03 15:11:09] === APPLICATION STARTED ===
+[2025-11-03 15:11:09] Environment: development
+[2025-11-03 15:11:09] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 15:11:09] ===========================
+[2025-11-03 15:15:04] === APPLICATION STARTED ===
+[2025-11-03 15:15:04] Environment: development
+[2025-11-03 15:15:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 15:15:04] ===========================
+[2025-11-03 15:15:04] === APPLICATION STARTED ===
+[2025-11-03 15:15:04] Environment: development
+[2025-11-03 15:15:04] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 15:15:04] ===========================
+[2025-11-03 15:49:27] === APPLICATION STARTED ===
+[2025-11-03 15:49:27] Environment: development
+[2025-11-03 15:49:27] Log File: D:\Xampp\htdocs\DaddyChipsAPI\config/../logs/app_debug.log
+[2025-11-03 15:49:27] ===========================
